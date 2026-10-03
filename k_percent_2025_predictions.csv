@@ -1,0 +1,874 @@
+"PlayerId","Name","Age","N_prior_seasons_used","2024_K%","2024_TBF","2024_Stuff+","Marcel_baseline_K%","Predicted_2025_K%","Actual_2025_K%","Actual_2025_TBF","Data_basis","Error_pts"
+621242,"Edwin Díaz",31,3,38.9,216,114.5934211,38.1,38.1,38,258,"History-based model",0.1
+642585,"Félix Bautista",30,2,46.4,237,126.4560888,37.4,37.4,35.2,142,"History-based model",2.2
+642207,"Devin Williams",30,3,43.2,88,114.8011765,35.4,35.4,34.7,259,"History-based model",0.7
+623352,"Josh Hader",31,3,37.8,278,113.085589,34.4,34.4,36.9,206,"History-based model",-2.5
+547973,"Aroldis Chapman",37,3,37,265,105.2688021,34.1,34.1,37.3,228,"History-based model",-3.2
+518585,"Fernando Cruz",35,3,37.8,288,104.0801547,33.5,33.5,36,200,"History-based model",-2.5
+695243,"Mason Miller",26,2,41.8,249,129.133457,33.5,33.5,44.4,234,"History-based model",-11
+594798,"Jacob deGrom",37,3,31.8,44,115.9837427,33.1,33.1,27.7,669,"History-based model",5.4
+521230,"Liam Hendriks",36,3,15,20,101.5298851,31.9,31.9,20.3,59,"History-based model",11.6
+675911,"Spencer Strider",26,3,28.6,42,107.3579775,31.9,31.9,24.3,539,"History-based model",7.6
+622780,"Angel Perdomo",31,2,37.6,117,100.6061284,31.7,31.7,12.5,16,"History-based model",19.2
+662253,"Andrés Muñoz",26,3,33.2,232,113.6322187,31.4,31.4,32.7,254,"History-based model",-1.3
+669093,"Jeremiah Estrada",26,3,37.3,252,107.00978,31.4,31.4,35.5,304,"History-based model",-4.1
+671922,"Cade Smith",26,1,35.6,289,104.0435052,31.3,31.3,34.7,300,"History-based model",-3.4
+650556,"Bryan Abreu",28,3,31.7,325,108.9887211,31.2,31.2,35.5,296,"History-based model",-4.3
+489446,"Kirby Yates",38,3,35.9,237,96.68236098,31.1,31.1,29.2,178,"History-based model",1.9
+605483,"Blake Snell",32,3,34.7,418,105.4003403,31.1,31.1,28.3,254,"History-based model",2.7
+671305,"Michel Otañez",27,1,36.4,151,124.4637604,30.9,30.9,21.4,28,"History-based model",9.5
+664854,"Ryan Helsley",30,3,29.7,266,129.1097198,30.8,30.8,25,252,"History-based model",5.8
+607192,"Tyler Glasnow",31,3,32.2,522,107.5390651,30.5,30.5,29,366,"History-based model",1.5
+681911,"Alex Vesia",29,3,33.1,263,114.0763636,30.3,30.3,33.8,237,"History-based model",-3.5
+673380,"Dedniel Núñez",29,1,35.6,135,110.642089,30,30,26.8,41,"History-based model",3.2
+656546,"Jeff Hoffman",32,3,33.6,265,114.9059873,29.9,29.9,29.3,287,"History-based model",0.6
+660271,"Shohei Ohtani",30,3,31.5,531,119.4912249,29.9,29.9,33,188,"History-based model",-3.1
+666374,"Matt Brash",27,2,34.7,308,123.7702797,29.9,29.9,29.1,199,"History-based model",0.7
+518886,"Craig Kimbrel",37,3,31.5,232,106.4056133,29.8,29.8,34.7,49,"History-based model",-4.9
+502085,"David Robertson",40,3,33.4,296,111.7904959,29.7,29.7,28.2,78,"History-based model",1.5
+621381,"Matt Strahm",33,3,33.3,237,115.1000607,29.7,29.7,27.3,256,"History-based model",2.3
+670955,"Edwin Uceta",27,3,35.8,159,102.9037725,29.6,29.6,32.1,321,"History-based model",-2.5
+694973,"Paul Skenes",23,1,33.1,514,108.4921371,29.6,29.6,29.5,733,"History-based model",0.1
+596112,"Robert Stephenson",32,3,38.3,201,111.5241866,29.3,29.3,23.8,42,"History-based model",5.5
+661395,"Jhoan Duran",27,3,28.9,228,124.9550668,29.3,29.3,27.9,287,"History-based model",1.5
+669308,"Sean Reynolds",27,1,42.9,49,107.7605333,29.2,29.2,21.4,117,"History-based model",7.9
+676254,"Ryan Walker",29,2,32.1,308,111.3235211,29.2,29.2,22.6,266,"History-based model",6.6
+676979,"Garrett Crochet",26,3,35.1,595,115.6855109,29.2,29.2,31.3,814,"History-based model",-2.1
+656945,"Tanner Scott",30,3,28.6,294,123.6856711,29.1,29.1,25.2,238,"History-based model",3.9
+643410,"Mark Leiter Jr.",34,3,33.6,256,88.77805775,29,29,24.7,219,"History-based model",4.4
+519242,"Chris Sale",36,3,32.1,702,104.2275818,28.9,28.9,32.4,510,"History-based model",-3.5
+621237,"José Alvarado",30,3,24.4,258,111.1990649,28.9,28.9,28.1,114,"History-based model",0.9
+682254,"Mason Montgomery",25,1,45.9,37,122.3950633,28.9,28.9,30.1,209,"History-based model",-1.3
+640462,"A.J. Puk",30,3,29.9,294,108.5261758,28.7,28.7,34.3,35,"History-based model",-5.6
+663574,"Tony Santillan",28,3,37.7,122,103.7930622,28.7,28.7,24.9,301,"History-based model",3.7
+669373,"Tarik Skubal",28,3,30.3,753,112.1932415,28.7,28.7,32.2,748,"History-based model",-3.5
+592779,"Brock Stewart",33,2,29.9,67,115.8297398,28.6,28.6,27.7,159,"History-based model",0.9
+572955,"Pierce Johnson",34,3,28.4,236,105.2412678,28.5,28.5,24.8,238,"History-based model",3.7
+592094,"Jason Adam",33,3,28.7,282,109.2253327,28.5,28.5,25.9,270,"History-based model",2.6
+643377,"Griffin Jax",30,3,34.4,276,109.6017619,28.5,28.5,35,283,"History-based model",-6.5
+664126,"Pete Fairbanks",31,3,23.8,185,115.6771182,28.5,28.5,24.2,244,"History-based model",4.3
+605540,"Brandon Woodruff",32,3,29.2,253,108.2996929,28.4,28.4,32.3,257,"History-based model",-3.9
+595014,"Blake Treinen",37,3,30.4,184,104.833551,28.3,28.3,27.9,129,"History-based model",0.4
+621345,"A.J. Minter",31,3,26.1,134,108.4797303,28.3,28.3,31.8,44,"History-based model",-3.5
+681870,"Erik Sabrowski",27,1,40.4,47,104.3164646,28.3,28.3,34.7,121,"History-based model",-6.4
+687863,"Porter Hodge",24,1,31.7,164,105.4689062,28.3,28.3,27.2,147,"History-based model",1
+600917,"José Leclerc",31,3,30.9,288,103.943495,28.2,28.2,17.4,46,"History-based model",10.8
+678226,"Daysbel Hernández",28,2,35.1,74,111.8893656,28.1,28.1,20.1,164,"History-based model",7.9
+666808,"Camilo Doval",27,3,28.8,271,111.3982031,28,28,25.9,278,"History-based model",2.1
+669276,"Dylan Lee",30,3,31.7,240,104.5018501,28,28,28.6,266,"History-based model",-0.6
+650633,"Michael King",30,3,27.7,726,95.65410858,27.9,27.9,24.7,308,"History-based model",3.2
+669062,"Erik Miller",27,1,30.6,284,102.8629143,27.9,27.9,17.2,128,"History-based model",10.8
+592662,"Robbie Ray",33,3,33.3,129,104.9661593,27.8,27.8,24.6,755,"History-based model",3.2
+668881,"Hunter Greene",25,3,27.7,611,113.1336154,27.8,27.8,31.4,420,"History-based model",-3.6
+673540,"Kodai Senga",32,2,45,20,107.0512329,27.8,27.8,22.6,482,"History-based model",5.2
+445276,"Kenley Jansen",37,3,28.4,218,120.0679648,27.6,27.6,24.4,234,"History-based model",3.3
+623149,"Paul Sewald",35,3,26.1,165,117.0238217,27.6,27.6,24.7,81,"History-based model",2.9
+656302,"Dylan Cease",29,3,29.4,762,109.7712956,27.6,27.6,29.8,722,"History-based model",-2.2
+656730,"Trevor Megill",31,3,27.3,183,117.3485113,27.6,27.6,31.2,192,"History-based model",-3.6
+664294,"Dauri Moreta",29,3,31.8,239,105.3406243,27.6,27.6,27.9,68,"History-based model",-0.3
+554340,"Yimi García",34,3,32,153,122.1762349,27.5,27.5,27.8,90,"History-based model",-0.3
+621053,"Tyler Ferguson",31,1,30,207,113.5270905,27.5,27.5,22,246,"History-based model",5.5
+623465,"Evan Phillips",30,3,27.6,228,115.7042623,27.5,27.5,27.3,22,"History-based model",0.2
+642100,"Gabe Speier",30,3,31.7,104,104.5545368,27.5,27.5,33.7,243,"History-based model",-6.3
+601713,"Nick Pivetta",32,3,28.9,595,102.7811322,27.4,27.4,26.4,721,"History-based model",1.1
+642547,"Freddy Peralta",29,3,27.6,725,98.87897218,27.4,27.4,28.2,723,"History-based model",-0.8
+657585,"Reed Garrett",32,3,33.6,247,114.6803668,27.4,27.4,26.9,238,"History-based model",0.5
+689690,"Alek Jacob",27,2,33.3,57,107.0742241,27.4,27.4,15,153,"History-based model",12.4
+689147,"Orion Kerkering",24,2,28.8,257,119.3629255,27.2,27.2,24.4,266,"History-based model",2.8
+605177,"Andrew Chafin",35,3,28.5,246,97.26380772,27.1,27.1,25.2,143,"History-based model",1.9
+607481,"Aaron Bummer",31,3,28.3,244,114.0818519,27.1,27.1,21.7,235,"History-based model",5.4
+628452,"Raisel Iglesias",35,3,26.3,259,107.4868503,27.1,27.1,27.4,266,"History-based model",-0.3
+663558,"Jovani Morán",28,3,26.1,184,99.82331995,27.1,27.1,25,20,"History-based model",2.1
+676395,"Robert Garcia",29,2,29.9,251,103.25228,27.1,27.1,25.3,269,"History-based model",1.8
+605488,"Jeffrey Springs",32,3,26.1,142,92.83054867,26.9,26.9,19.4,713,"History-based model",7.6
+621114,"Ryan Burr",31,3,33.6,140,92.7437193,26.9,26.9,37.5,8,"History-based model",-10.6
+679885,"Justin Martinez",23,2,29.5,308,121.3837884,26.9,26.9,32.8,67,"History-based model",-5.9
+685801,"Hunter Bigge",27,1,32.9,73,103.8495407,26.9,26.9,20,60,"History-based model",6.9
+573124,"Taylor Rogers",34,3,25.7,249,103.8527222,26.8,26.8,24,221,"History-based model",2.8
+592254,"José De León",32,2,24.3,70,111.4189836,26.8,26.8,28.6,28,"History-based model",-1.8
+669211,"Keegan Akin",30,3,31,313,111.1833846,26.8,26.8,22,268,"History-based model",4.8
+687830,"Sawyer Gipson-Long",27,1,31.7,82,99.10666667,26.8,26.8,19.5,133,"History-based model",7.2
+691587,"Eury Pérez",22,1,28.9,374,110.8999478,26.8,26.8,27.3,385,"History-based model",-0.4
+554430,"Zack Wheeler",35,3,28.5,787,110.0621413,26.7,26.7,33.3,585,"History-based model",-6.7
+625643,"Reynaldo López",31,3,27.3,543,97.95946931,26.7,26.7,4,25,"History-based model",22.7
+664849,"Danny Young",31,3,29.1,165,111.4695815,26.7,26.7,35.1,37,"History-based model",-8.4
+668674,"Lucas Erceg",30,2,28.5,253,111.374957,26.7,26.7,19.3,249,"History-based model",7.4
+676962,"Ben Brown",25,1,28.8,222,99.72332455,26.7,26.7,25.6,472,"History-based model",1.1
+680694,"Kyle Bradish",28,3,32.5,163,97.1223477,26.7,26.7,37.3,126,"History-based model",-10.6
+657746,"Joe Ryan",29,3,27.3,538,105.0079829,26.6,26.6,28.2,689,"History-based model",-1.6
+683232,"Nick Mears",28,3,29.3,256,108.9250289,26.6,26.6,20.8,221,"History-based model",5.8
+664076,"Garrett Cleavinger",31,3,26.7,266,112.7394508,26.5,26.5,33.7,243,"History-based model",-7.3
+808967,"Yoshinobu Yamamoto",26,1,28.5,368,96.99475477,26.5,26.5,29.4,684,"History-based model",-2.8
+493603,"Adam Ottavino",39,3,28.6,245,107.4381275,26.4,26.4,33.3,9,"History-based model",-7
+543056,"Danny Coulombe",35,3,29.9,107,105.6805128,26.4,26.4,24.4,176,"History-based model",1.9
+605130,"Scott Barlow",32,3,28.2,241,102.7869536,26.4,26.4,24.8,303,"History-based model",1.6
+519141,"Drew Pomeranz",36,1,29.4,102,111.4450698,26.3,26.3,28.1,203,"History-based model",-1.8
+543243,"Sonny Gray",35,3,30.3,671,97.32378488,26.3,26.3,26.7,753,"History-based model",-0.4
+573204,"Caleb Thielbar",38,3,24.5,216,112.1395017,26.3,26.3,25.5,220,"History-based model",0.8
+700187,"Troy Taylor",23,1,30.9,81,108.6936585,26.3,26.3,5.4,37,"History-based model",20.9
+579328,"Yusei Kikuchi",34,3,28,736,103.9133734,26.2,26.2,22.5,772,"History-based model",3.7
+666142,"Cole Ragans",27,3,29.3,762,109.8906367,26.2,26.2,38.1,257,"History-based model",-12
+670950,"Trevor Richards",32,3,22.4,277,101.5631568,26.2,26.2,17.2,29,"History-based model",9
+676879,"Aaron Ashby",27,3,27.7,119,108.6544174,26.2,26.2,28.1,270,"History-based model",-1.9
+806185,"Hayden Birdsong",23,1,27.9,315,99.59153401,26.2,26.2,22.8,298,"History-based model",3.3
+455119,"Chris Martin",39,3,27.8,180,104.2958779,26.1,26.1,24.7,174,"History-based model",1.4
+671737,"Taj Bradley",24,2,26.6,578,108.502195,26.1,26.1,21,605,"History-based model",5.1
+676760,"Ron Marinaccio",29,3,25.3,99,100.0612183,26.1,26.1,28.6,42,"History-based model",-2.4
+682171,"Penn Murfee",31,2,27.6,58,112.3950685,26.1,26.1,20.6,63,"History-based model",5.4
+687911,"Bryan King",28,1,29.4,109,100.8191807,26.1,26.1,25.1,275,"History-based model",1
+701581,"David Festa",25,1,27.8,277,96.72889409,26.1,26.1,23.1,229,"History-based model",2.9
+519151,"Ryan Pressly",36,3,23.8,244,102.4270124,26,26,15.4,182,"History-based model",10.6
+548384,"Brooks Raley",37,3,36,25,132.3845378,26,26,25.3,99,"History-based model",0.8
+592454,"Tommy Kahnle",35,3,25.7,179,91.77918563,26,26,18.7,267,"History-based model",7.3
+656629,"Michael Kopech",29,3,31.5,279,127.3387691,26,26,22.6,53,"History-based model",3.4
+664747,"Alexis Díaz",28,3,22.7,242,92.25909928,26,26,20,85,"History-based model",6
+680704,"Nick Sandlin",28,3,27.6,246,99.65022833,26,26,23.2,69,"History-based model",2.8
+593576,"Héctor Neris",36,3,24.6,260,94.60185983,25.9,25.9,28.2,124,"History-based model",-2.3
+640451,"Hunter Harvey",30,3,25.1,219,105.5819088,25.9,25.9,28.2,39,"History-based model",-2.3
+641941,"Emilio Pagán",34,3,27.8,158,105.8424947,25.9,25.9,30,270,"History-based model",-4.1
+650671,"José Quijada",29,3,28.6,84,103.9688533,25.9,25.9,37.5,8,"History-based model",-11.6
+661563,"Luis Gil",27,3,26.8,637,105.6281729,25.9,25.9,16.8,244,"History-based model",9.1
+592426,"Luke Jackson",33,3,25.1,235,100.3833692,25.8,25.8,17.4,219,"History-based model",8.5
+656464,"Kevin Ginkel",31,3,26.5,291,94.93951137,25.8,25.8,24,121,"History-based model",1.8
+656876,"Drew Rasmussen",29,3,30.2,116,128.4815784,25.8,25.8,21.7,585,"History-based model",4
+666157,"Nick Lodolo",27,3,24.7,493,104.2248762,25.8,25.8,24.3,642,"History-based model",1.5
+592773,"Ryne Stanek",33,3,27.8,241,107.4587942,25.7,25.7,22.7,255,"History-based model",3
+605154,"John Brebbia",35,3,27.7,242,98.85622188,25.7,25.7,22.6,115,"History-based model",3.1
+605447,"Jordan Romano",32,3,21,62,103.0666667,25.7,25.7,25.1,187,"History-based model",0.6
+641154,"Pablo López",29,3,25.6,772,93.67378824,25.7,25.7,23.4,312,"History-based model",2.3
+656638,"Alex Lange",29,3,23.3,90,100.63552,25.7,25.7,16.7,6,"History-based model",9.1
+657024,"Erik Swanson",31,3,22,168,94.8445045,25.7,25.7,10,30,"History-based model",15.7
+657571,"Caleb Ferguson",28,3,26.9,249,101.5076071,25.7,25.7,18.9,270,"History-based model",6.8
+608650,"Dietrich Enns",34,1,28.4,88,110.4282778,25.6,25.6,24.5,200,"History-based model",1.1
+672282,"Reid Detmers",25,3,27.9,391,104.3501797,25.6,25.6,30.1,266,"History-based model",-4.4
+681293,"Spencer Arrighetti",25,1,27.1,632,100.3679569,25.6,25.6,19.9,156,"History-based model",5.7
+681432,"Luke Little",24,2,25.7,109,90.77219388,25.6,25.6,26.7,15,"History-based model",-1.1
+607074,"Carlos Rodón",32,3,26.5,736,111.0294254,25.5,25.5,25.7,789,"History-based model",-0.2
+641656,"Ian Hamilton",30,3,25.2,163,106.5053871,25.5,25.5,25.3,166,"History-based model",0.2
+656257,"Jeff Brigham",33,2,26.2,160,101.2043529,25.5,25.5,16.7,18,"History-based model",8.8
+670280,"David Bednar",30,3,22.1,262,109.035098,25.5,25.5,34.3,251,"History-based model",-8.8
+663460,"Kris Bubic",27,3,32.2,121,94.98521327,25.4,25.4,24.4,476,"History-based model",1.1
+665795,"Edward Cabrera",27,3,25.6,418,98.724824,25.4,25.4,25.8,581,"History-based model",-0.4
+673513,"Yuki Matsui",29,1,26.8,257,101.7566475,25.4,25.4,22.4,272,"History-based model",3
+682120,"Tim Herrin",28,2,26.5,257,100.7856008,25.4,25.4,23.2,194,"History-based model",2.2
+608337,"Lucas Giolito",30,3,25.7,794,97.46323832,25.3,25.3,19.7,613,"History-based model",5.6
+621121,"Lance McCullers Jr.",31,2,25.6,195,101.179473,25.3,25.3,22.3,274,"History-based model",3.1
+641329,"Bryan Baker",30,3,24.7,93,102.2066484,25.3,25.3,30.3,274,"History-based model",-5
+656427,"Jack Flaherty",29,3,29.9,649,98.66866236,25.3,25.3,27.6,681,"History-based model",-2.3
+670036,"Matt Festa",32,3,24,100,108.0311589,25.3,25.3,24.8,226,"History-based model",0.5
+676282,"Joey Cantillo",25,1,27,163,92.36244888,25.3,25.3,26.9,401,"History-based model",-1.6
+680732,"Sean Burke",25,1,28.9,76,99.64588997,25.3,25.3,22.3,596,"History-based model",3
+453286,"Max Scherzer",40,3,22.6,177,99.85733133,25.2,25.2,22.9,358,"History-based model",2.3
+571510,"Matthew Boyd",34,3,27.7,166,90.90407186,25.2,25.2,21.4,718,"History-based model",3.7
+622491,"Luis Castillo",32,3,24.3,719,103.0359566,25.2,25.2,21.7,745,"History-based model",3.4
+657240,"Julian Merryweather",33,3,18.9,74,106.2200738,25.2,25.2,17,88,"History-based model",8.1
+660825,"Eduard Bazardo",29,3,30.6,108,104.8973182,25.2,25.2,26.2,313,"History-based model",-1
+663485,"Cole Sands",27,3,29.1,292,98.58461005,25.2,25.2,21.4,299,"History-based model",3.8
+676508,"Ben Casparius",26,1,32.4,37,101.1746154,25.2,25.2,21.3,333,"History-based model",3.9
+686613,"Hunter Brown",26,3,25.1,712,104.5515519,25.2,25.2,28.3,729,"History-based model",-3.1
+691172,"Yosver Zulueta",27,1,29,69,107.9075958,25.2,25.2,15.6,32,"History-based model",9.6
+592332,"Kevin Gausman",34,3,21.4,756,95.70610431,25.1,25.1,24.4,775,"History-based model",0.8
+596133,"Luke Weaver",31,3,31.1,331,100.2140849,25.1,25.1,27.5,262,"History-based model",-2.4
+605280,"Clay Holmes",32,3,25.1,271,125.7785014,25.1,25.1,18.2,708,"History-based model",6.9
+642397,"Gregory Soto",30,3,26.6,244,118.3793583,25.1,25.1,25.1,279,"History-based model",0.1
+668678,"Zac Gallen",29,3,25.1,621,91.52007974,25.1,25.1,21.5,813,"History-based model",3.6
+641927,"Bailey Ober",29,3,26.9,709,96.8207458,25,25,19.2,624,"History-based model",5.8
+664123,"Scott Effross",31,3,14.3,14,105.0137838,25,25,11.8,51,"History-based model",13.2
+669302,"Logan Gilbert",28,3,27.4,803,96.24569079,25,25,32.3,535,"History-based model",-7.3
+669622,"Anthony Bender",30,3,25.9,228,117.489513,25,25,20.6,204,"History-based model",4.5
+677651,"Luis Garcia",28,3,27,115,99.04490421,25,25,25,28,"History-based model",0
+682842,"Abner Uribe",25,2,21.2,66,113.7523256,25,25,30.2,298,"History-based model",-5.2
+669456,"Shane Bieber",30,3,44.4,45,90.35951807,24.9,24.9,23.3,159,"History-based model",1.7
+683175,"Connor Phillips",24,1,27.1,96,104.7322427,24.9,24.9,32.7,98,"History-based model",-7.8
+686752,"Ryan Pepiot",27,3,26.3,539,109.6832805,24.9,24.9,24.6,679,"History-based model",0.4
+687396,"Brent Headrick",27,2,38.5,13,102.0483582,24.9,24.9,32.6,92,"History-based model",-7.7
+595345,"Steven Okert",33,3,20.6,160,113.4265672,24.8,24.8,30.4,276,"History-based model",-5.7
+605400,"Aaron Nola",32,3,24,820,111.6037182,24.8,24.8,24,404,"History-based model",0.8
+622554,"Seranthony Domínguez",30,3,26.7,255,117.9625664,24.8,24.8,30.3,261,"History-based model",-5.4
+676440,"Tanner Bibee",26,2,26.3,710,102.7687952,24.8,24.8,21.3,762,"History-based model",3.5
+686218,"Emmet Sheehan",25,1,25.8,248,98.30142128,24.8,24.8,30.6,291,"History-based model",-5.8
+686580,"Justin Slaten",27,1,25.9,224,108.064716,24.8,24.8,18.2,137,"History-based model",6.5
+571760,"Andrew Heaney",34,3,22.9,693,99.37988168,24.7,24.7,16,536,"History-based model",8.7
+605242,"Michael Fulmer",32,3,27.4,237,104.2491404,24.7,24.7,13,23,"History-based model",11.6
+657514,"Brennan Bernardino",33,3,24.8,226,104.9752258,24.7,24.7,19.2,224,"History-based model",5.5
+663878,"Nate Pearson",28,3,26,285,112.8440038,24.7,24.7,9.3,75,"History-based model",15.4
+666171,"Ryan Zeferjahn",27,1,28.1,64,115.7407692,24.7,24.7,28.4,257,"History-based model",-3.7
+450203,"Charlie Morton",41,3,23.8,701,97.60559597,24.6,24.6,22.8,654,"History-based model",1.8
+663321,"Nick Hernandez",30,2,29.4,34,87.03294964,24.6,24.6,21.2,52,"History-based model",3.4
+663542,"Bryan Hudson",28,2,26.8,231,99.86728061,24.6,24.6,25.3,75,"History-based model",-0.8
+669203,"Corbin Burnes",30,3,23.1,784,113.1886096,24.6,24.6,23.8,265,"History-based model",0.8
+678821,"Luis Peralta",24,1,28.6,49,94.44477778,24.6,24.6,15.8,101,"History-based model",8.7
+701542,"Will Warren",26,1,26.4,110,103.2275546,24.6,24.6,24.1,711,"History-based model",0.5
+594580,"Sam Moll",33,3,25,152,106.3404509,24.5,24.5,27.2,81,"History-based model",-2.6
+666200,"Jesús Luzardo",27,3,21.2,274,99.14155125,24.5,24.5,28.5,758,"History-based model",-4
+667297,"Tommy Nance",34,3,20.4,93,100.4828213,24.5,24.5,25.4,126,"History-based model",-0.9
+680885,"Spencer Schwellenbach",25,1,25.4,500,107.0477021,24.5,24.5,24.9,434,"History-based model",-0.4
+608032,"Carlos Estévez",32,3,23.6,212,102.1602159,24.4,24.4,20.1,269,"History-based model",4.3
+640455,"Sean Manaea",33,3,24.9,738,98.3176584,24.4,24.4,28.5,263,"History-based model",-4.1
+669022,"MacKenzie Gore",26,3,24.8,731,104.3395972,24.4,24.4,27.2,680,"History-based model",-2.8
+678020,"Seth Halvorsen",25,1,28.3,46,113.7711429,24.4,24.4,20.8,173,"History-based model",3.6
+694037,"Daniel Palencia",25,2,23.2,69,108.6825856,24.4,24.4,28.4,215,"History-based model",-4
+623211,"Huascar Brazobán",35,3,23.5,217,100.2946571,24.3,24.3,21.8,262,"History-based model",2.5
+641755,"Tyler Kinley",34,3,25.3,285,93.66916949,24.3,24.3,23.7,308,"History-based model",0.6
+681217,"Chase Silseth",25,3,31.6,38,95.11573171,24.3,24.3,26.5,49,"History-based model",-2.2
+642152,"Lou Trivino",33,2,26.8,250,116.400423,24.2,24.2,17.9,207,"History-based model",6.3
+657424,"Matt Gage",32,2,29.6,27,98.7827027,24.2,24.2,19.7,137,"History-based model",4.4
+664208,"Phil Maton",32,3,22.6,265,96.60460037,24.2,24.2,32.7,248,"History-based model",-8.4
+671212,"Joe Boyle",25,2,24.8,226,104.7895165,24.2,24.2,25.7,226,"History-based model",-1.5
+676130,"José Buttó",27,3,26.9,294,92.4768333,24.2,24.2,20.4,284,"History-based model",3.8
+684007,"Shota Imanaga",31,1,25.1,694,97.47049536,24.2,24.2,20.6,567,"History-based model",3.6
+686642,"Fraser Ellard",27,1,25.7,101,98.7371897,24.2,24.2,29.7,74,"History-based model",-5.6
+608371,"Lucas Sims",31,3,22.8,215,113.5116548,24.1,24.1,18.1,72,"History-based model",6.1
+656271,"Brock Burke",28,3,26.6,154,103.2090087,24.1,24.1,20.2,257,"History-based model",3.9
+656550,"Grant Holmes",29,1,24.8,282,89.60939423,24.1,24.1,25,492,"History-based model",-0.9
+657006,"Justin Steele",29,3,24.3,555,101.020787,24.1,24.1,22.8,92,"History-based model",1.3
+660853,"Enyel De Los Santos",29,3,23.7,278,94.42092322,24.1,24.1,22.1,280,"History-based model",2
+666974,"Yennier Cano",31,3,26.1,249,111.6320199,24.1,24.1,21.1,251,"History-based model",3
+676534,"Calvin Faucher",29,3,26.8,235,100.3476336,24.1,24.1,23.1,255,"History-based model",1
+681676,"Ryan Fernandez",27,1,24.9,285,103.0543598,24.1,24.1,24.3,140,"History-based model",-0.2
+595897,"Nick Burdi",32,2,26.7,45,110.4726066,24,24,23.8,21,"History-based model",0.2
+606303,"Joel Payamps",31,3,25.1,235,102.4893855,24,24,20.5,117,"History-based model",3.5
+663158,"Robert Suarez",34,3,22.9,258,116.1373469,24,24,27.9,269,"History-based model",-3.9
+669199,"Lake Bachar",30,1,27.5,40,95.50713115,24,24,25.3,296,"History-based model",-1.4
+458677,"Justin Wilson",37,3,24.4,209,108.8102822,23.9,23.9,27.5,207,"History-based model",-3.6
+506433,"Yu Darvish",38,3,23.6,331,99.76557769,23.9,23.9,23,296,"History-based model",0.9
+641482,"Nestor Cortes",30,3,22.8,710,108.189504,23.9,23.9,18.5,157,"History-based model",5.4
+657376,"Clarke Schmidt",29,3,26.3,353,106.8097041,23.9,23.9,23.1,316,"History-based model",0.8
+664285,"Framber Valdez",31,3,24,703,107.2922598,23.9,23.9,23.3,802,"History-based model",0.5
+667755,"José Soriano",26,2,20.7,468,106.5993811,23.9,23.9,21,724,"History-based model",3
+669459,"Kyle Nelson",28,3,19,42,95.86731034,23.9,23.9,18.2,11,"History-based model",5.8
+670059,"Colin Holderman",29,3,25.1,223,112.5676532,23.9,23.9,14.4,125,"History-based model",9.5
+543859,"Michael Tonkin",35,2,25,340,102.7047535,23.8,23.8,18.4,103,"History-based model",5.4
+608331,"Max Fried",31,3,23.2,714,103.5125808,23.8,23.8,23.6,801,"History-based model",0.2
+622786,"Jesus Tinoco",30,3,25.9,162,109.4639879,23.8,23.8,12.5,80,"History-based model",11.3
+657097,"Jacob Webb",31,3,24.5,237,96.03609442,23.8,23.8,21.7,267,"History-based model",2.1
+670970,"Adrian Morejon",26,3,26.1,272,124.3449481,23.8,23.8,24.5,286,"History-based model",-0.7
+672391,"Kaleb Ort",33,3,28,93,114.52,23.8,23.8,25.3,194,"History-based model",-1.4
+676684,"Will Vest",30,3,21.8,289,97.7442069,23.8,23.8,26.4,284,"History-based model",-2.6
+542888,"Shawn Armstrong",34,3,22.4,295,104.8030705,23.7,23.7,26.1,284,"History-based model",-2.4
+608665,"Kendall Graveman",34,3,23.4,282,101.330438,23.7,23.7,11,82,"History-based model",12.8
+656731,"Tylor Megill",29,3,27,337,103.3799269,23.7,23.7,29.2,305,"History-based model",-5.5
+661403,"Emmanuel Clase",27,3,24.4,270,127.9787702,23.7,23.7,23.4,201,"History-based model",0.4
+669084,"DL Hall",26,3,22.3,197,89.34888002,23.7,23.7,17.4,155,"History-based model",6.3
+676477,"Garrett Whitlock",29,3,22.7,75,92.152,23.7,23.7,31.1,293,"History-based model",-7.4
+805673,"Zebby Matthews",25,1,24.3,177,97.48980392,23.7,23.7,24.9,354,"History-based model",-1.2
+571946,"Shelby Miller",34,3,21.8,225,89.08587264,23.6,23.6,29,186,"History-based model",-5.4
+660896,"Jorge Alcala",29,3,24.7,235,106.6913578,23.6,23.6,23.7,257,"History-based model",-0.2
+669854,"Ronel Blanco",31,3,24.6,676,90.20288232,23.6,23.6,24.1,199,"History-based model",-0.5
+677958,"Kumar Rocker",25,1,25.5,55,97.01327189,23.6,23.6,19.5,287,"History-based model",4.1
+681869,"Shawn Dubin",29,2,23.7,207,98.10204762,23.6,23.6,19.3,145,"History-based model",4.2
+689017,"Landon Knack",27,1,24.1,286,93.59592067,23.6,23.6,22.7,185,"History-based model",0.9
+641386,"Ben Bowden",30,1,23.7,177,95.23966867,23.5,23.5,14.9,47,"History-based model",8.6
+670167,"John Schreiber",31,3,20.5,224,100.1212795,23.5,23.5,23.4,265,"History-based model",0.1
+678495,"Randy Rodríguez",25,1,24,221,108.7281884,23.5,23.5,33.8,198,"History-based model",-10.3
+571948,"Hoby Milner",34,3,23.9,268,105.4021316,23.4,23.4,19.8,293,"History-based model",3.7
+605463,"Tayler Scott",33,3,25.2,282,93.5679799,23.4,23.4,17.9,134,"History-based model",5.5
+621363,"Colin Poche",31,3,21.6,153,94.30924214,23.4,23.4,21.2,52,"History-based model",2.3
+641816,"Tyler Mahle",30,3,17.9,56,83.70445415,23.4,23.4,19.1,346,"History-based model",4.3
+656458,"Lucas Gilbreath",29,3,0,12,89.69361702,23.4,23.4,50,4,"History-based model",-26.6
+663423,"Trent Thornton",31,3,26.2,294,108.4801587,23.4,23.4,17.8,180,"History-based model",5.7
+668909,"Gavin Williams",25,2,23.8,332,101.4375531,23.4,23.4,24.6,704,"History-based model",-1.2
+668941,"JoJo Romero",28,3,21,243,108.0527273,23.4,23.4,21.6,255,"History-based model",1.8
+621051,"Steven Wilson",30,3,20.9,163,105.6675161,23.3,23.3,21.2,241,"History-based model",2.1
+623474,"Jimmy Herget",31,3,28.8,52,102.7398942,23.3,23.3,23.3,347,"History-based model",0
+656420,"J.P. Feyereisen",32,3,18.8,48,87.51910615,23.3,23.3,17.4,23,"History-based model",5.9
+663462,"Isaiah Campbell",27,2,16.2,37,100.782069,23.3,23.3,8.6,35,"History-based model",14.7
+663855,"Jordan Hicks",28,3,20,481,105.0009215,23.3,23.3,18.5,314,"History-based model",4.8
+664199,"Taylor Clarke",32,3,24.4,266,96.41975224,23.3,23.3,21.4,206,"History-based model",2
+669212,"Eli Morgan",29,3,20.4,167,95.07720497,23.3,23.3,11.4,35,"History-based model",11.9
+669358,"Shane Baz",26,3,21.6,319,102.2814796,23.3,23.3,24.8,711,"History-based model",-1.5
+670102,"Bowden Francis",29,3,22.5,408,98.72081434,23.3,23.3,18.8,288,"History-based model",4.6
+681882,"Colin Selby",27,2,17.9,28,94.55785714,23.3,23.3,23.3,60,"History-based model",0
+694297,"Brandon Pfaadt",26,2,24.3,760,102.9735653,23.3,23.3,19.2,767,"History-based model",4.2
+445926,"Jesse Chavez",41,3,20.8,264,95.15666987,23.2,23.2,18.6,43,"History-based model",4.6
+518489,"Ryan Brasier",37,3,22.7,110,100.6073827,23.2,23.2,19,105,"History-based model",4.2
+592155,"Cam Booser",33,1,23.5,183,111.6648266,23.2,23.2,24.5,143,"History-based model",-1.3
+642701,"Dennis Santana",29,3,24,287,104.5002494,23.2,23.2,22.2,270,"History-based model",1
+643338,"Chad Green",34,3,21.9,210,103.6812157,23.2,23.2,18.4,190,"History-based model",4.8
+677161,"Zack Kelly",30,3,25.3,241,114.7728414,23.2,23.2,23,152,"History-based model",0.2
+682243,"Bryce Miller",26,2,24.3,704,105.3903134,23.2,23.2,18.9,392,"History-based model",4.4
+687362,"Connor Gillispie",27,1,25,32,85.71070064,23.2,23.2,18.7,123,"History-based model",4.5
+692285,"Luis Guerrero",24,1,25,36,111.7976608,23.2,23.2,13.9,72,"History-based model",9.3
+477132,"Clayton Kershaw",37,3,18,133,100.9223062,23.1,23.1,18.1,463,"History-based model",5
+543135,"Nathan Eovaldi",35,3,23.9,696,99.71028528,23.1,23.1,26,496,"History-based model",-2.9
+656849,"David Peterson",29,3,19.8,510,93.34954375,23.1,23.1,20.7,723,"History-based model",2.3
+664139,"Ian Gibaut",31,3,10,10,87.403,23.1,23.1,13.8,109,"History-based model",9.3
+664141,"JT Brubaker",31,2,22.8,646,94.01578638,23.1,23.1,18.8,117,"History-based model",4.3
+669713,"Hayden Wesneski",27,3,23.7,283,95.58317178,23.1,23.1,22.1,131,"History-based model",0.9
+593833,"Wander Suero",33,3,0,1,115.9,23,23,21.9,32,"History-based model",1.2
+628317,"Kenta Maeda",37,3,19.8,485,92.17417569,23,23,18.6,43,"History-based model",4.4
+669684,"Chris Murphy",27,1,23.1,212,95.2456582,23,23,20.3,148,"History-based model",2.7
+669923,"George Kirby",27,3,23,778,104.1489497,23,23,26.1,524,"History-based model",-3.1
+674444,"Steven Cruz",26,2,22.2,18,119.3188,23,23,20.1,189,"History-based model",2.9
+681892,"Kody Funderburk",28,2,19.9,161,107.8137963,23,23,21.9,183,"History-based model",1.1
+607455,"Anthony Banda",31,3,23.9,209,105.9414718,22.9,22.9,22.8,268,"History-based model",0.2
+621383,"Tanner Banks",33,3,25.1,311,100.8867226,22.9,22.9,22.8,267,"History-based model",0
+642121,"Cole Sulser",35,3,22.7,66,94.9545221,22.9,22.9,24.4,90,"History-based model",-1.5
+676617,"Riley O'Brien",30,3,23.9,46,106.8116751,22.9,22.9,22.6,199,"History-based model",0.3
+684320,"Yariel Rodríguez",28,1,23.1,368,93.51790806,22.9,22.9,22.1,298,"History-based model",0.8
+693312,"Kyle Nicolas",26,2,22.6,243,106.7326984,22.9,22.9,20.4,167,"History-based model",2.5
+518876,"Merrill Kelly",36,3,21,300,90.86720562,22.8,22.8,22.3,748,"History-based model",0.4
+605513,"Spencer Turnbull",32,3,26.1,222,100.8433437,22.8,22.8,12.1,33,"History-based model",10.6
+647336,"Michael Soroka",27,2,24.2,347,95.42124067,22.8,22.8,25.1,379,"History-based model",-2.3
+664299,"Cristian Javier",28,3,18,150,99.19198594,22.8,22.8,21.7,157,"History-based model",1.1
+693433,"Bryan Woo",25,2,21.4,472,107.0032107,22.8,22.8,27.1,731,"History-based model",-4.3
+607625,"Seth Lugo",35,3,21.7,836,96.74312258,22.7,22.7,20.5,611,"History-based model",2.3
+640448,"Kyle Finnegan",33,3,22.1,271,103.2466352,22.7,22.7,24,229,"History-based model",-1.3
+669711,"Greg Weissert",30,3,22.1,263,108.5942578,22.7,22.7,20.5,278,"History-based model",2.2
+674370,"Osvaldo Bido",29,2,24.3,259,104.3935065,22.7,22.7,18.7,363,"History-based model",4
+681857,"Reese Olson",25,2,21.7,465,93.08510823,22.7,22.7,22.8,285,"History-based model",-0.1
+690829,"Ben Joyce",24,2,23.2,142,127.9202382,22.7,22.7,5,20,"History-based model",17.7
+690986,"Kyle Harrison",23,2,22.2,532,89.43104578,22.7,22.7,24.4,156,"History-based model",-1.7
+593423,"Frankie Montas",32,3,22.6,655,102.421027,22.6,22.6,18,178,"History-based model",4.6
+656605,"Mitch Keller",29,3,21.5,773,100.3484318,22.6,22.6,20,749,"History-based model",2.5
+663474,"Triston McKenzie",27,3,21.8,340,88.66722521,22.6,22.6,13.3,30,"History-based model",9.3
+552640,"Andrew Kittredge",35,3,23.3,287,99.46218537,22.5,22.5,30.8,208,"History-based model",-8.3
+554431,"Tyler Matzek",34,3,20.8,48,97.29966292,22.5,22.5,20,35,"History-based model",2.5
+614179,"José Ruiz",30,3,24,217,105.0033732,22.5,22.5,19,79,"History-based model",3.6
+650644,"Aaron Civale",30,3,21.6,689,106.1532583,22.5,22.5,20.2,435,"History-based model",2.3
+657053,"Touki Toussaint",29,3,22.2,117,91.03169734,22.5,22.5,27.3,11,"History-based model",-4.8
+663546,"Sean Hjelle",28,3,22.3,337,106.7477269,22.5,22.5,15.1,73,"History-based model",7.5
+663767,"Chase Shugart",28,1,22.2,36,108.2973239,22.5,22.5,17.1,181,"History-based model",5.4
+666277,"George Soriano",26,2,22.1,131,90.26374517,22.5,22.5,20.8,173,"History-based model",1.7
+800311,"Didier Fuentes",20,0,NA,NA,NA,NA,22.5,17.4,69,"No MLB history (debuts)",5.1
+543518,"Scott McGough",35,2,16.7,150,86.51584352,22.4,22.4,21.3,75,"History-based model",1
+605135,"Chris Bassitt",36,3,22.2,758,98.20542005,22.4,22.4,22.6,736,"History-based model",-0.2
+641401,"Connor Brogdon",30,3,15.8,19,102.3818557,22.4,22.4,24.6,199,"History-based model",-2.3
+668964,"Tobias Myers",26,1,22.3,569,91.22824772,22.4,22.4,17.3,220,"History-based model",5.1
+676206,"Freddy Tarnok",26,2,21.5,65,95.16933798,22.4,22.4,35.7,28,"History-based model",-13.3
+680735,"Austin Cox",28,1,22.1,149,96.29128834,22.4,22.4,21.6,102,"History-based model",0.8
+681799,"Ethan Roberts",27,2,22,118,105.5795781,22.4,22.4,15.4,39,"History-based model",7
+685107,"Anthony Veneziano",27,2,24.1,58,104.1387603,22.4,22.4,21.4,117,"History-based model",1.1
+699134,"Bradgley Rodriguez",21,0,NA,NA,NA,NA,22.4,29,31,"No MLB history (debuts)",-6.7
+702056,"Trey Yesavage",21,0,NA,NA,NA,NA,22.4,25.8,62,"No MLB history (debuts)",-3.4
+596001,"Jakob Junis",32,3,20.2,253,98.04908491,22.3,22.3,20.1,274,"History-based model",2.2
+621366,"Ryan Borucki",31,3,25.5,51,100.2324855,22.3,22.3,22.1,145,"History-based model",0.3
+624133,"Ranger Suárez",29,3,23.2,626,97.43481007,22.3,22.3,23.2,651,"History-based model",-0.9
+680880,"Grant Holman",25,1,21.9,73,89.02226804,22.3,22.3,16.5,103,"History-based model",5.8
+686753,"Drey Jameson",27,2,21.3,174,101.861454,22.3,22.3,0,13,"History-based model",22.3
+476594,"Robert Stock",35,1,20,45,96.67083333,22.2,22.2,6.7,15,"History-based model",15.5
+621107,"Zach Eflin",31,3,19.6,684,99.97256346,22.2,22.2,16.2,309,"History-based model",6
+621139,"Brooks Kriske",31,2,24,25,116.0223913,22.2,22.2,20.5,88,"History-based model",1.8
+641778,"Eric Lauer",30,3,20.4,211,91.97281895,22.2,22.2,23.9,426,"History-based model",-1.7
+666214,"Joey Wentz",27,3,24,304,97.63816669,22.2,22.2,20.8,442,"History-based model",1.4
+669387,"Carmen Mlodzinski",26,2,22,209,105.1495818,22.2,22.2,21.2,419,"History-based model",1
+671096,"Andrew Abbott",26,2,19.5,586,94.08437365,22.2,22.2,21.8,684,"History-based model",0.5
+677020,"Josh Walker",30,2,20,55,95.19339535,22.2,22.2,32,25,"History-based model",-9.8
+681982,"Grant Anderson",28,2,24.2,120,105.5699376,22.2,22.2,24.7,299,"History-based model",-2.6
+686973,"Louis Varland",27,3,20.6,238,98.07816383,22.2,22.2,25.3,296,"History-based model",-3.1
+691251,"Andry Lara",22,0,NA,NA,NA,NA,22.2,12.8,78,"No MLB history (debuts)",9.4
+691594,"Javier Sanoja",22,0,NA,NA,NA,NA,22.2,1.9,54,"No MLB history (debuts)",20.4
+692030,"Jose Corniell",22,0,NA,NA,NA,NA,22.2,11.1,9,"No MLB history (debuts)",11.1
+695505,"Chase Burns",22,0,NA,NA,NA,NA,22.2,35.6,188,"No MLB history (debuts)",-13.4
+695534,"Chase Petty",22,0,NA,NA,NA,NA,22.2,17.5,40,"No MLB history (debuts)",4.7
+696149,"Bubba Chandler",22,0,NA,NA,NA,NA,22.2,25,124,"No MLB history (debuts)",-2.8
+696270,"Ryan Johnson",22,0,NA,NA,NA,NA,22.2,22.2,72,"No MLB history (debuts)",0
+801139,"Payton Tolle",22,0,NA,NA,NA,NA,22.2,25.7,74,"No MLB history (debuts)",-3.4
+804636,"Jonah Tong",22,0,NA,NA,NA,NA,22.2,25.3,87,"No MLB history (debuts)",-3.1
+806960,"Luis Morales",22,0,NA,NA,NA,NA,22.2,21.6,199,"No MLB history (debuts)",0.6
+691441,"Cristian Mena",22,1,13.3,15,101.1091429,21.4,22.2,30.8,26,"Thin-sample (Limited Innings)",-8.5
+695549,"Jackson Jobe",22,1,12.5,16,106.5557447,21.2,22.2,17.9,218,"Thin-sample (Limited Innings)",4.3
+622503,"Nabil Crismatt",30,3,23.1,26,89.66191489,22.1,22.1,16.3,153,"History-based model",5.7
+663947,"Tyler Holton",29,3,21.8,354,100.8081033,22.1,22.1,20.5,312,"History-based model",1.6
+664062,"Tony Gonsolin",31,3,18.9,435,88.72674699,22.1,22.1,24.2,157,"History-based model",-2.1
+666619,"Gregory Santos",25,3,19.4,31,106.7311864,22.1,22.1,0,36,"History-based model",22.1
+672782,"Yoendrys Gómez",25,2,18.5,54,91.1335514,22.1,22.1,20.9,277,"History-based model",1.2
+676755,"Isaac Mattson",29,2,26.1,23,100.4042,22.1,22.1,22.7,198,"History-based model",-0.6
+679883,"Luinder Avila",23,0,NA,NA,NA,NA,22.1,28.6,56,"No MLB history (debuts)",-6.5
+679922,"Carlos Duran",23,0,NA,NA,NA,NA,22.1,0,5,"No MLB history (debuts)",22.1
+682790,"Wikelman González",23,0,NA,NA,NA,NA,22.1,28.7,87,"No MLB history (debuts)",-6.7
+689254,"Mason Fluharty",23,0,NA,NA,NA,NA,22.1,26,215,"No MLB history (debuts)",-4
+690953,"Mick Abel",23,0,NA,NA,NA,NA,22.1,22.4,174,"No MLB history (debuts)",-0.3
+690990,"Cade Horton",23,0,NA,NA,NA,NA,22.1,20.4,476,"No MLB history (debuts)",1.7
+690997,"Nolan McLean",23,0,NA,NA,NA,NA,22.1,30.3,188,"No MLB history (debuts)",-8.2
+691769,"Philip Abner",23,0,NA,NA,NA,NA,22.1,27.8,18,"No MLB history (debuts)",-5.7
+691799,"Grant Taylor",23,0,NA,NA,NA,NA,22.1,34.4,157,"No MLB history (debuts)",-12.3
+694819,"Jacob Misiorowski",23,0,NA,NA,NA,NA,22.1,31.9,273,"No MLB history (debuts)",-9.8
+701656,"Logan Henderson",23,0,NA,NA,NA,NA,22.1,33.3,99,"No MLB history (debuts)",-11.3
+801403,"Chase Dollander",23,0,NA,NA,NA,NA,22.1,18.6,441,"No MLB history (debuts)",3.5
+802419,"Thomas Harrington",23,0,NA,NA,NA,NA,22.1,14,50,"No MLB history (debuts)",8.1
+808963,"Roki Sasaki",23,0,NA,NA,NA,NA,22.1,17.4,161,"No MLB history (debuts)",4.7
+813349,"Connelly Early",23,0,NA,NA,NA,NA,22.1,36.7,79,"No MLB history (debuts)",-14.6
+820862,"José Fermin",23,0,NA,NA,NA,NA,22.1,25.7,152,"No MLB history (debuts)",-3.6
+683618,"Edgardo Henriquez",23,1,35.7,14,114.5416949,24.2,22.1,23.1,78,"Thin-sample (Limited Innings)",-1
+605452,"Joe Ross",32,2,20.6,321,92.72849916,22,22,17.1,228,"History-based model",4.9
+669330,"Tyler Wells",30,3,19.4,67,93.00894942,22,22,22,82,"History-based model",0.1
+676092,"Collin Snider",29,3,27.8,169,113.7439704,22,22,20.2,119,"History-based model",1.8
+676428,"Brant Hurter",26,1,21.7,175,105.4889486,22,22,24.5,277,"History-based model",-2.5
+676604,"Tyler Zuber",30,2,26.7,15,114.4824,22,22,23.7,59,"History-based model",-1.8
+689225,"Beau Brieske",27,3,24.5,282,102.3632506,22,22,15.5,103,"History-based model",6.4
+694738,"Landen Roupp",26,1,21.7,217,98.39775076,22,22,21.4,476,"History-based model",0.5
+605347,"Jorge López",32,3,23,217,104.1165087,21.9,21.9,16,106,"History-based model",5.8
+645261,"Sandy Alcantara",29,3,19.8,762,110.0495129,21.9,21.9,19.1,745,"History-based model",2.8
+663978,"Chris Paddack",29,3,20.6,384,92.2623489,21.9,21.9,16.7,670,"History-based model",5.2
+687330,"Kevin Kelly",27,2,22.7,278,121.682298,21.9,21.9,20.5,171,"History-based model",1.4
+675512,"Troy Melton",24,0,NA,NA,NA,NA,21.9,20,180,"No MLB history (debuts)",1.9
+675848,"Juan Mejia",24,0,NA,NA,NA,NA,21.9,26.1,261,"No MLB history (debuts)",-4.1
+678215,"Luarbert Arias",24,0,NA,NA,NA,NA,21.9,18.2,55,"No MLB history (debuts)",3.8
+680755,"Braydon Fisher",24,0,NA,NA,NA,NA,21.9,30.7,202,"No MLB history (debuts)",-8.8
+681168,"Luis Curvelo",24,0,NA,NA,NA,NA,21.9,23.8,84,"No MLB history (debuts)",-1.9
+682825,"Luis Mey",24,0,NA,NA,NA,NA,21.9,21.9,96,"No MLB history (debuts)",0.1
+682995,"Hunter Barco",24,0,NA,NA,NA,NA,21.9,25,12,"No MLB history (debuts)",-3.1
+685326,"McCade Brown",24,0,NA,NA,NA,NA,21.9,18.3,126,"No MLB history (debuts)",3.7
+686930,"Mason Barnett",24,0,NA,NA,NA,NA,21.9,17.3,104,"No MLB history (debuts)",4.6
+687074,"Tyler Owens",24,0,NA,NA,NA,NA,21.9,6.7,15,"No MLB history (debuts)",15.3
+687075,"Brandon Sproat",24,0,NA,NA,NA,NA,21.9,20.2,84,"No MLB history (debuts)",1.7
+687209,"Zach Maxwell",24,0,NA,NA,NA,NA,21.9,30.2,43,"No MLB history (debuts)",-8.3
+687223,"Carson Palmquist",24,0,NA,NA,NA,NA,21.9,15.4,175,"No MLB history (debuts)",6.5
+687931,"Carson Whisenhunt",24,0,NA,NA,NA,NA,21.9,15.7,102,"No MLB history (debuts)",6.2
+688138,"Logan Evans",24,0,NA,NA,NA,NA,21.9,16.9,350,"No MLB history (debuts)",5.1
+688642,"Zach Agnos",24,0,NA,NA,NA,NA,21.9,13.8,138,"No MLB history (debuts)",8.2
+693645,"Cam Schlittler",24,0,NA,NA,NA,NA,21.9,27.6,304,"No MLB history (debuts)",-5.7
+694918,"Blade Tidwell",24,0,NA,NA,NA,NA,21.9,12.8,78,"No MLB history (debuts)",9.1
+697812,"Joe Rock",24,0,NA,NA,NA,NA,21.9,31.4,35,"No MLB history (debuts)",-9.5
+800048,"Parker Messick",24,0,NA,NA,NA,NA,21.9,23,165,"No MLB history (debuts)",-1.1
+805123,"AJ Blubaugh",24,0,NA,NA,NA,NA,21.9,28.2,124,"No MLB history (debuts)",-6.3
+805427,"Drew Sommers",24,0,NA,NA,NA,NA,21.9,15.8,19,"No MLB history (debuts)",6.1
+815083,"Mitch Farris",24,0,NA,NA,NA,NA,21.9,22.4,107,"No MLB history (debuts)",-0.5
+686790,"Trevor McDonald",24,1,10,10,94.75487179,21.4,21.9,23.3,60,"Thin-sample (Limited Innings)",-1.4
+687847,"Marc Church",24,1,25,4,109.9533333,22.7,21.9,21.7,23,"Thin-sample (Limited Innings)",0.2
+606965,"Chris Devenski",34,3,19.7,122,100.6728705,21.8,21.8,21.5,65,"History-based model",0.3
+607179,"Jordan Weems",32,3,17.9,196,99.54205198,21.8,21.8,0,23,"History-based model",21.8
+623437,"Justin Topa",34,3,25,8,97.347,21.8,21.8,18.3,268,"History-based model",3.5
+642048,"Tayler Saucedo",32,3,22.9,166,100.9729374,21.8,21.8,18.2,66,"History-based model",3.7
+650911,"Cristopher Sánchez",28,3,20.3,754,106.6371562,21.8,21.8,26.3,807,"History-based model",-4.5
+656222,"Jalen Beeks",31,3,17.6,312,94.89416776,21.8,21.8,20.3,231,"History-based model",1.5
+656794,"Sean Newcomb",32,3,15.6,45,96.23234973,21.8,21.8,23.3,391,"History-based model",-1.5
+669160,"Dustin May",27,3,18.2,187,117.2356216,21.8,21.8,21.1,584,"History-based model",0.7
+676272,"Bobby Miller",26,2,20.2,258,105.6847383,21.8,21.8,25,28,"History-based model",-3.2
+680742,"Jonathan Bowlan",28,2,17.6,17,105.835,21.8,21.8,25.6,180,"History-based model",-3.7
+688297,"Chris Roycroft",28,1,21.3,155,109.0452925,21.8,21.8,14.9,101,"History-based model",6.9
+700241,"Michael McGreevy",24,1,20.9,86,90.93254229,21.8,21.8,14.5,400,"History-based model",7.3
+700669,"Gordon Graceffo",25,1,19.4,31,81.78952381,21.8,21.8,20.7,193,"History-based model",1.1
+666659,"Sauryn Lao",25,0,NA,NA,NA,NA,21.8,18.4,49,"No MLB history (debuts)",3.4
+669371,"Cole Henry",25,0,NA,NA,NA,NA,21.8,21.6,241,"No MLB history (debuts)",0.2
+672724,"Oswald Peraza",25,0,NA,NA,NA,NA,21.8,0,16,"No MLB history (debuts)",21.8
+676679,"Luis Vázquez",25,0,NA,NA,NA,NA,21.8,0,14,"No MLB history (debuts)",21.8
+677952,"Braxton Ashcraft",25,0,NA,NA,NA,NA,21.8,24.3,292,"No MLB history (debuts)",-2.5
+677961,"Cole Wilcox",25,0,NA,NA,NA,NA,21.8,8.3,12,"No MLB history (debuts)",13.5
+678022,"Jack Perkins",25,0,NA,NA,NA,NA,21.8,23,161,"No MLB history (debuts)",-1.2
+678024,"Mike Vasil",25,0,NA,NA,NA,NA,21.8,19.4,423,"No MLB history (debuts)",2.4
+680684,"Gunnar Hoglund",25,0,NA,NA,NA,NA,21.8,16.5,139,"No MLB history (debuts)",5.2
+680729,"Garrett McDaniels",25,0,NA,NA,NA,NA,21.8,12,50,"No MLB history (debuts)",9.8
+680951,"Doug Nikhazy",25,0,NA,NA,NA,NA,21.8,21.7,23,"No MLB history (debuts)",0
+681343,"Shane Smith",25,0,NA,NA,NA,NA,21.8,23.5,616,"No MLB history (debuts)",-1.8
+681916,"Dylan Smith",25,0,NA,NA,NA,NA,21.8,8.3,48,"No MLB history (debuts)",13.5
+684974,"Craig Yoho",25,0,NA,NA,NA,NA,21.8,17.1,41,"No MLB history (debuts)",4.7
+686228,"Juan Burgos",25,0,NA,NA,NA,NA,21.8,21.5,65,"No MLB history (debuts)",0.2
+686701,"Ryan Bergert",25,0,NA,NA,NA,NA,21.8,22.6,323,"No MLB history (debuts)",-0.8
+688158,"David Morgan",25,0,NA,NA,NA,NA,21.8,25.9,193,"No MLB history (debuts)",-4.1
+690928,"Hunter Dobbins",25,0,NA,NA,NA,NA,21.8,17.6,256,"No MLB history (debuts)",4.2
+691548,"Rolddy Muñoz",25,0,NA,NA,NA,NA,21.8,23.8,21,"No MLB history (debuts)",-2
+694851,"Andrew Hoffmann",25,0,NA,NA,NA,NA,21.8,19.7,61,"No MLB history (debuts)",2.1
+695418,"Brad Lord",25,0,NA,NA,NA,NA,21.8,19.8,546,"No MLB history (debuts)",2
+701487,"Pierson Ohl",25,0,NA,NA,NA,NA,21.8,20.3,133,"No MLB history (debuts)",1.5
+701519,"Travis Adams",25,0,NA,NA,NA,NA,21.8,19.6,158,"No MLB history (debuts)",2.2
+701552,"Andre Granillo",25,0,NA,NA,NA,NA,21.8,19.8,91,"No MLB history (debuts)",2
+702070,"Noah Cameron",25,0,NA,NA,NA,NA,21.8,20.5,556,"No MLB history (debuts)",1.3
+801216,"Christian Montes De Oca",25,0,NA,NA,NA,NA,21.8,22.2,9,"No MLB history (debuts)",-0.4
+801434,"Paul Gervase",25,0,NA,NA,NA,NA,21.8,20.5,39,"No MLB history (debuts)",1.3
+805299,"Brandyn Garcia",25,0,NA,NA,NA,NA,21.8,21.2,66,"No MLB history (debuts)",0.6
+672841,"Carlos Vargas",25,1,31.8,22,114.608642,24.4,21.8,16.3,331,"Thin-sample (Limited Innings)",5.5
+681347,"Mike Burrows",25,1,14.3,14,97.32029412,21.6,21.8,24.1,402,"Thin-sample (Limited Innings)",-2.3
+694350,"Zach Brzykcy",25,1,14.3,28,90.08134615,20.8,21.8,21.8,110,"Thin-sample (Limited Innings)",0
+472610,"Luis García",38,3,20.9,254,105.265062,21.7,21.7,20.6,233,"History-based model",1.1
+608379,"Michael Wacha",33,3,21.2,685,100.4175319,21.7,21.7,17.6,716,"History-based model",4.1
+622663,"Luis Severino",31,3,21.2,761,108.6063498,21.7,21.7,17.6,705,"History-based model",4.1
+656240,"Scott Blewett",29,2,21.2,85,88.14182965,21.7,21.7,18,194,"History-based model",3.7
+663903,"Brady Singer",28,3,22.3,762,90.52730834,21.7,21.7,22.8,716,"History-based model",-1.1
+668970,"Gavin Hollowell",27,3,16.7,6,89.7562963,21.7,21.7,23.3,43,"History-based model",-1.6
+683409,"Angel Chivilli",22,1,21.1,133,85.24438017,21.7,21.7,15.6,275,"History-based model",6.1
+689958,"Andrew Walters",24,1,18.8,32,110.1051437,21.7,21.7,33.3,6,"History-based model",-11.7
+573009,"Joe Mantiply",34,3,21.8,243,105.7322121,21.6,21.6,13.8,58,"History-based model",7.8
+592351,"Jon Gray",33,3,19.6,439,88.92489521,21.6,21.6,19,63,"History-based model",2.5
+607259,"Nick Martinez",34,3,20.4,570,95.06069452,21.6,21.6,17,683,"History-based model",4.6
+660730,"Elvin Rodríguez",27,2,50,10,99.40468085,21.6,21.6,20,90,"History-based model",1.6
+660761,"José Suarez",27,3,23.3,240,100.7167483,21.6,21.6,19.8,81,"History-based model",1.8
+672578,"Carlos Hernández",28,3,20.9,129,106.4140357,21.6,21.6,19.2,203,"History-based model",2.4
+680767,"Victor Vodnik",25,2,20.3,320,99.15877154,21.6,21.6,22.8,215,"History-based model",-1.2
+665660,"Elvis Alvarado",26,0,NA,NA,NA,NA,21.6,27.3,183,"No MLB history (debuts)",-5.7
+666661,"Juan Morillo",26,0,NA,NA,NA,NA,21.6,23.7,152,"No MLB history (debuts)",-2
+668716,"Noah Murdock",26,0,NA,NA,NA,NA,21.6,21.4,98,"No MLB history (debuts)",0.2
+669449,"Jake Palisch",26,0,NA,NA,NA,NA,21.6,0,6,"No MLB history (debuts)",21.6
+669717,"Will Wilson",26,0,NA,NA,NA,NA,21.6,0,8,"No MLB history (debuts)",21.6
+673820,"Robinson Piña",26,0,NA,NA,NA,NA,21.6,7.1,14,"No MLB history (debuts)",14.5
+674384,"Eduarniel Núñez",26,0,NA,NA,NA,NA,21.6,18.3,60,"No MLB history (debuts)",3.3
+674841,"Andrew Alvarez",26,0,NA,NA,NA,NA,21.6,20.4,98,"No MLB history (debuts)",1.2
+676070,"Jacob Amaya",26,0,NA,NA,NA,NA,21.6,0,3,"No MLB history (debuts)",21.6
+676263,"Jack Dreyer",26,0,NA,NA,NA,NA,21.6,24.1,307,"No MLB history (debuts)",-2.5
+676467,"Colton Gordon",26,0,NA,NA,NA,NA,21.6,19,379,"No MLB history (debuts)",2.6
+677649,"Ezequiel Duran",26,0,NA,NA,NA,NA,21.6,0,11,"No MLB history (debuts)",21.6
+678011,"Anthony Seigler",26,0,NA,NA,NA,NA,21.6,0,4,"No MLB history (debuts)",21.6
+678316,"Omar Cruz",26,0,NA,NA,NA,NA,21.6,27.8,18,"No MLB history (debuts)",-6.1
+680604,"Blas Castaño",26,0,NA,NA,NA,NA,21.6,6.2,16,"No MLB history (debuts)",15.4
+681751,"Lazaro Estrada",26,0,NA,NA,NA,NA,21.6,28.6,35,"No MLB history (debuts)",-6.9
+682144,"Jayvien Sandridge",26,0,NA,NA,NA,NA,21.6,33.3,6,"No MLB history (debuts)",-11.7
+685005,"Christian Roa",26,0,NA,NA,NA,NA,21.6,25,12,"No MLB history (debuts)",-3.4
+686249,"Nathan Wiles",26,0,NA,NA,NA,NA,21.6,14.3,7,"No MLB history (debuts)",7.4
+686676,"Korey Lee",26,0,NA,NA,NA,NA,21.6,0,14,"No MLB history (debuts)",21.6
+687064,"Brandon Young",26,0,NA,NA,NA,NA,21.6,18.4,256,"No MLB history (debuts)",3.3
+687166,"Austin Pope",26,0,NA,NA,NA,NA,21.6,11.1,9,"No MLB history (debuts)",10.5
+687473,"Ryan Gusto",26,0,NA,NA,NA,NA,21.6,21.4,453,"No MLB history (debuts)",0.2
+687589,"Dom Hamel",26,0,NA,NA,NA,NA,21.6,0,6,"No MLB history (debuts)",21.6
+693313,"Carson Seymour",26,0,NA,NA,NA,NA,21.6,16.7,156,"No MLB history (debuts)",5
+693855,"Ian Seymour",26,0,NA,NA,NA,NA,21.6,26.4,242,"No MLB history (debuts)",-4.8
+694335,"Matt Svanson",26,0,NA,NA,NA,NA,21.6,29.1,234,"No MLB history (debuts)",-7.4
+694359,"Niko Kavadas",26,0,NA,NA,NA,NA,21.6,11.1,9,"No MLB history (debuts)",10.5
+694477,"Chad Patrick",26,0,NA,NA,NA,NA,21.6,25.2,503,"No MLB history (debuts)",-3.6
+695445,"Chase Lee",26,0,NA,NA,NA,NA,21.6,24.3,148,"No MLB history (debuts)",-2.7
+701121,"Logan VanWey",26,0,NA,NA,NA,NA,21.6,14.3,49,"No MLB history (debuts)",7.4
+802686,"Hayden Harris",26,0,NA,NA,NA,NA,21.6,0,12,"No MLB history (debuts)",21.6
+671109,"Jake Eder",26,1,11.1,9,86.42533333,21.6,21.6,19.2,78,"Thin-sample (Limited Innings)",2.4
+676475,"Alec Burleson",26,1,7.7,13,65.64222222,21,21.6,0,4,"Thin-sample (Limited Innings)",21.6
+676917,"Cade Cavalli",26,1,26.1,23,95.517,23.1,21.6,18.3,219,"Thin-sample (Limited Innings)",3.4
+686751,"Seth Johnson",26,1,0,18,104.6961404,19.1,21.6,31.5,54,"Thin-sample (Limited Innings)",-9.8
+690925,"Clayton Beeter",26,1,33.3,15,104.5501961,24,21.6,31.7,104,"Thin-sample (Limited Innings)",-10.1
+694646,"Chayce McDermott",26,1,16.7,18,95.71560976,21.7,21.6,17.6,51,"Thin-sample (Limited Innings)",4
+702795,"Ryan Loutos",26,1,0,10,72.19407407,20.5,21.6,11.8,68,"Thin-sample (Limited Innings)",9.9
+593958,"Eduardo Rodriguez",32,3,21,224,91.67140209,21.5,21.5,20.6,694,"History-based model",0.9
+656288,"Griffin Canning",29,3,17.6,739,86.09528724,21.5,21.5,21.3,328,"History-based model",0.1
+656557,"Tanner Houck",29,3,20.7,743,103.9735484,21.5,21.5,15.8,203,"History-based model",5.8
+656641,"Jacob Latz",29,3,20.8,192,102.9034932,21.5,21.5,21.8,348,"History-based model",-0.4
+657277,"Logan Webb",28,3,20.5,841,108.9371106,21.5,21.5,26.2,856,"History-based model",-4.6
+669620,"Brady Basso",27,1,20.4,93,89.96131429,21.5,21.5,14.3,56,"History-based model",7.3
+676702,"Hunter Stratton",28,2,20.9,158,105.5756314,21.5,21.5,18,89,"History-based model",3.5
+660604,"Alan Rangel",27,0,NA,NA,NA,NA,21.5,17.4,46,"No MLB history (debuts)",4.1
+669020,"Ryan Rolison",27,0,NA,NA,NA,NA,21.5,13,193,"No MLB history (debuts)",8.5
+669193,"Jack Little",27,0,NA,NA,NA,NA,21.5,14.3,14,"No MLB history (debuts)",7.2
+669704,"Kade Strowd",27,0,NA,NA,NA,NA,21.5,22.9,105,"No MLB history (debuts)",-1.4
+669707,"Jared Triolo",27,0,NA,NA,NA,NA,21.5,0,8,"No MLB history (debuts)",21.5
+669722,"Logan Davidson",27,0,NA,NA,NA,NA,21.5,33.3,3,"No MLB history (debuts)",-11.8
+671162,"Connor Thomas",27,0,NA,NA,NA,NA,21.5,16.1,31,"No MLB history (debuts)",5.4
+673965,"Caleb Freeman",27,0,NA,NA,NA,NA,21.5,18.8,16,"No MLB history (debuts)",2.7
+676510,"Nolan Hoffman",27,0,NA,NA,NA,NA,21.5,28.6,7,"No MLB history (debuts)",-7.1
+679775,"Kyle Backhus",27,0,NA,NA,NA,NA,21.5,19.1,115,"No MLB history (debuts)",2.4
+681006,"Josh Simpson",27,0,NA,NA,NA,NA,21.5,23.8,151,"No MLB history (debuts)",-2.4
+683766,"Christian Koss",27,0,NA,NA,NA,NA,21.5,0,16,"No MLB history (debuts)",21.5
+685068,"Carson Ragsdale",27,0,NA,NA,NA,NA,21.5,16,25,"No MLB history (debuts)",5.5
+687287,"Patrick Monteverde",27,0,NA,NA,NA,NA,21.5,20,20,"No MLB history (debuts)",1.5
+687606,"Paxton Schultz",27,0,NA,NA,NA,NA,21.5,25.5,110,"No MLB history (debuts)",-4
+687849,"Zak Kent",27,0,NA,NA,NA,NA,21.5,21.1,76,"No MLB history (debuts)",0.4
+689520,"Cody Laweryson",27,0,NA,NA,NA,NA,21.5,26.9,26,"No MLB history (debuts)",-5.4
+690382,"Michael Darrell-Hicks",27,0,NA,NA,NA,NA,21.5,18.6,43,"No MLB history (debuts)",2.9
+702752,"Jonathan Pintaro",27,0,NA,NA,NA,NA,21.5,16.7,6,"No MLB history (debuts)",4.8
+806188,"Cade Gibson",27,0,NA,NA,NA,NA,21.5,18.7,230,"No MLB history (debuts)",2.8
+829272,"Shinnosuke Ogasawara",27,0,NA,NA,NA,NA,21.5,17.3,173,"No MLB history (debuts)",4.1
+660644,"Vidal Bruján",27,1,6.2,16,40.38436364,20.3,21.5,0,11,"Thin-sample (Limited Innings)",21.5
+660844,"Leo Rivas",27,1,0,9,57.332,20.7,21.5,0,6,"Thin-sample (Limited Innings)",21.5
+666215,"Forrest Whitley",27,1,25,20,112.5206383,23,21.5,18.2,66,"Thin-sample (Limited Innings)",3.3
+679358,"Eric Orze",27,1,9.1,11,90.69047619,21.2,21.5,22.5,178,"Thin-sample (Limited Innings)",-1
+685126,"Brandon Eisert",27,1,7.7,26,90.09763636,19.5,21.5,24.2,306,"Thin-sample (Limited Innings)",-2.7
+687377,"Orlando Ribalta",27,1,13,23,101.9701031,20.8,21.5,20.8,120,"Thin-sample (Limited Innings)",0.7
+434378,"Justin Verlander",42,3,18.7,396,106.3024637,21.4,21.4,20.7,662,"History-based model",0.7
+448179,"Rich Hill",45,3,33.3,15,108.3175309,21.4,21.4,9.3,43,"History-based model",12.1
+595928,"John Curtiss",32,3,8.3,12,93.31947368,21.4,21.4,17,141,"History-based model",4.4
+621057,"Justin Garza",31,2,18.7,91,94.51739673,21.4,21.4,10.7,28,"History-based model",10.7
+623433,"Nick Anderson",34,3,19,153,89.71578778,21.4,21.4,16.4,61,"History-based model",5
+640454,"Matt Krook",30,2,33.3,6,102.3140741,21.4,21.4,20,15,"History-based model",1.4
+663465,"Kolby Allard",27,3,19.7,117,88.20560728,21.4,21.4,15.8,266,"History-based model",5.6
+665152,"Dean Kremer",29,3,22.2,553,96.28014781,21.4,21.4,20.1,708,"History-based model",1.3
+666120,"Ian Anderson",27,2,19.7,493,89.90768847,21.4,21.4,15.7,51,"History-based model",5.7
+676680,"Tom Cosgrove",29,2,19.7,76,110.0712422,21.4,21.4,18.8,16,"History-based model",2.7
+682989,"Victor Mederos",24,2,18.5,27,101.6192523,21.4,21.4,17.3,81,"History-based model",4.1
+694361,"Will Klein",25,1,18.4,38,97.81417123,21.4,21.4,30,70,"History-based model",-8.6
+606160,"Rafael Montero",34,3,14,164,101.5563586,21.3,21.3,22.9,253,"History-based model",-1.6
+663992,"Richard Lovelady",29,3,17.7,147,104.1046526,21.3,21.3,21.1,57,"History-based model",0.3
+669372,"J.T. Ginn",26,1,20.4,142,93.27884624,21.3,21.3,25.3,392,"History-based model",-3.9
+675989,"Cody Bolton",27,2,20.5,83,106.8973718,21.3,21.3,10,10,"History-based model",11.3
+680730,"Mitchell Parker",25,1,20.6,646,88.96452877,21.3,21.3,14.2,725,"History-based model",7
+645305,"Ali Sánchez",28,0,NA,NA,NA,NA,21.3,16.7,6,"No MLB history (debuts)",4.7
+647351,"Abraham Toro",28,0,NA,NA,NA,NA,21.3,0,8,"No MLB history (debuts)",21.3
+663671,"Nic Enright",28,0,NA,NA,NA,NA,21.3,23.6,127,"No MLB history (debuts)",-2.3
+663795,"Justin Hagenman",28,0,NA,NA,NA,NA,21.3,23.2,99,"No MLB history (debuts)",-1.9
+664991,"Grant Wolfram",28,0,NA,NA,NA,NA,21.3,23.3,133,"No MLB history (debuts)",-2
+666711,"Joel Peguero",28,0,NA,NA,NA,NA,21.3,19.8,86,"No MLB history (debuts)",1.6
+676571,"PJ Poulin",28,0,NA,NA,NA,NA,21.3,24.5,110,"No MLB history (debuts)",-3.2
+676609,"José Caballero",28,0,NA,NA,NA,NA,21.3,0,9,"No MLB history (debuts)",21.3
+676742,"Cam Sanders",28,0,NA,NA,NA,NA,21.3,11.8,34,"No MLB history (debuts)",9.6
+680701,"John Rooney",28,0,NA,NA,NA,NA,21.3,33.3,6,"No MLB history (debuts)",-12
+680702,"Joey Gerber",28,0,NA,NA,NA,NA,21.3,26.7,15,"No MLB history (debuts)",-5.3
+680862,"Willie MacIver",28,0,NA,NA,NA,NA,21.3,0,10,"No MLB history (debuts)",21.3
+681151,"Jayden Murray",28,0,NA,NA,NA,NA,21.3,17,47,"No MLB history (debuts)",4.3
+681895,"Evan Sisk",28,0,NA,NA,NA,NA,21.3,31.2,80,"No MLB history (debuts)",-9.9
+681962,"Vinny Capra",28,0,NA,NA,NA,NA,21.3,6.7,15,"No MLB history (debuts)",14.7
+687003,"Brian Van Belle",28,0,NA,NA,NA,NA,21.3,16.7,36,"No MLB history (debuts)",4.7
+692024,"Alex Carrillo",28,0,NA,NA,NA,NA,21.3,18.2,22,"No MLB history (debuts)",3.2
+699911,"Dugan Darnell",28,0,NA,NA,NA,NA,21.3,10.4,48,"No MLB history (debuts)",10.9
+645444,"Jose Herrera",28,1,0,10,37.59210526,20.7,21.3,0,10,"Thin-sample (Limited Innings)",21.3
+650489,"Willi Castro",28,2,0,4,42.808,20.3,21.3,0,4,"Thin-sample (Limited Innings)",21.3
+663897,"Luke Williams",28,2,0,19,23.66271186,18.7,21.3,16,25,"Thin-sample (Limited Innings)",5.3
+664744,"Jose Espada",28,1,40,5,82.3584,23.6,21.3,44.4,9,"Thin-sample (Limited Innings)",-23.1
+681987,"Nate Eaton",28,1,20,5,86.35909091,22.6,21.3,0,4,"Thin-sample (Limited Innings)",21.3
+686993,"Justin Sterner",28,1,21.1,19,109.8965625,22.3,21.3,26.3,266,"Thin-sample (Limited Innings)",-5
+608334,"Carson Fulmer",31,3,21.4,379,88.94683452,21.2,21.2,21.1,123,"History-based model",0.1
+621244,"José Berríos",31,3,19.5,786,93.65967686,21.2,21.2,19.8,698,"History-based model",1.4
+663432,"Tanner Rainey",32,3,19,231,102.7365069,21.2,21.2,23.4,47,"History-based model",-2.2
+663804,"Jackson Kowar",28,3,21.2,137,103.6292416,21.2,21.2,21.1,71,"History-based model",0.1
+676961,"Caleb Boushley",31,2,5,20,82.75079365,21.2,21.2,21.2,193,"History-based model",0
+678394,"Brayan Bello",26,3,21.8,702,97.39766445,21.2,21.2,17.7,700,"History-based model",3.5
+700363,"AJ Smith-Shawver",22,2,22.2,18,107.7377778,21.2,21.2,21.9,192,"History-based model",-0.6
+642708,"Amed Rosario",29,0,NA,NA,NA,NA,21.2,0,10,"No MLB history (debuts)",21.2
+656577,"Alex Jackson",29,0,NA,NA,NA,NA,21.2,0,8,"No MLB history (debuts)",21.2
+663967,"César Salazar",29,0,NA,NA,NA,NA,21.2,0,4,"No MLB history (debuts)",21.2
+675919,"Nick Raquet",29,0,NA,NA,NA,NA,21.2,14.3,7,"No MLB history (debuts)",6.9
+676724,"Jared Young",29,0,NA,NA,NA,NA,21.2,0,3,"No MLB history (debuts)",21.2
+681146,"Jonah Bride",29,0,NA,NA,NA,NA,21.2,5.4,37,"No MLB history (debuts)",15.8
+682274,"Yaramil Hiraldo",29,0,NA,NA,NA,NA,21.2,25,84,"No MLB history (debuts)",-3.8
+682515,"Logan Porter",29,0,NA,NA,NA,NA,21.2,0,5,"No MLB history (debuts)",21.2
+688497,"Taylor Rashi",29,0,NA,NA,NA,NA,21.2,30.6,72,"No MLB history (debuts)",-9.4
+620443,"Luis Torrens",29,2,0,1,19.26,21,21.2,0,8,"Thin-sample (Limited Innings)",21.2
+620454,"José Castillo",29,2,0,6,91.39478261,21.4,21.2,20.1,149,"Thin-sample (Limited Innings)",1.1
+640902,"Jhonny Pereda",29,1,0,1,54.46,22.4,21.2,15,20,"Thin-sample (Limited Innings)",6.2
+641343,"Jake Bauers",29,1,5,20,62.89333333,19.7,21.2,3.4,29,"Thin-sample (Limited Innings)",17.7
+656896,"Emmanuel Rivera",29,1,0,20,49.64464286,18.8,21.2,0,13,"Thin-sample (Limited Innings)",21.2
+664351,"Luis Contreras",29,1,23.1,26,94.59586207,22.7,21.2,24.1,54,"Thin-sample (Limited Innings)",-2.9
+670156,"Miles Mastrobuoni",29,1,0,5,47.24,21.6,21.2,0,6,"Thin-sample (Limited Innings)",21.2
+676701,"Alan Trejo",29,1,10,10,45.0768,21.6,21.2,0,3,"Thin-sample (Limited Innings)",21.2
+683021,"Michael Stefanic",29,1,0,5,3.634666667,21.5,21.2,0,3,"Thin-sample (Limited Innings)",21.2
+519326,"Hunter Strickland",36,3,19.4,294,105.7886505,21.1,21.1,15.4,91,"History-based model",5.7
+592866,"Trevor Williams",33,3,22.7,260,89.73145558,21.1,21.1,17.4,373,"History-based model",3.7
+621111,"Walker Buehler",30,3,18.6,344,99.83695067,21.1,21.1,16.3,565,"History-based model",4.8
+641540,"Dane Dunning",30,3,21.6,421,90.25512406,21.1,21.1,22.1,95,"History-based model",-1.1
+641793,"Zack Littell",29,3,21.5,656,89.4216956,21.1,21.1,17.1,759,"History-based model",3.9
+669674,"Sam Long",29,3,25,176,100.9436103,21.1,21.1,17.5,189,"History-based model",3.6
+669721,"Davis Daniel",28,2,20.9,134,92.14661386,21.1,21.1,19.6,46,"History-based model",1.5
+670990,"Yohan Ramírez",30,3,21.6,208,108.5166492,21.1,21.1,29,155,"History-based model",-7.9
+680573,"Simeon Woods Richardson",24,3,20.6,569,90.24222028,21.1,21.1,22.7,471,"History-based model",-1.6
+642216,"Allan Winans",29,2,9.8,41,82.93823129,21,21,13,46,"History-based model",7.9
+663455,"Konnor Pilkington",27,2,25,8,95.0025,21,21,27.6,123,"History-based model",-6.7
+665625,"Elvis Peguero",28,3,20.7,227,106.5400484,21,21,17,47,"History-based model",4
+670183,"Garrett Acton",27,1,15.6,32,108.4325806,21,21,0,5,"History-based model",21
+676051,"Codi Heuer",28,1,19.9,281,99.69205958,21,21,23.8,21,"History-based model",-2.8
+622761,"Jorge Mateo",30,0,NA,NA,NA,NA,21,0,11,"No MLB history (debuts)",21
+642180,"Tyler Wade",30,0,NA,NA,NA,NA,21,0,6,"No MLB history (debuts)",21
+669450,"Cooper Hummel",30,0,NA,NA,NA,NA,21,0,9,"No MLB history (debuts)",21
+676801,"Chas McCormick",30,0,NA,NA,NA,NA,21,6.7,15,"No MLB history (debuts)",14.4
+622379,"Luis F. Castillo",30,1,28.6,14,88.83266667,23.2,21,12.2,41,"Thin-sample (Limited Innings)",8.8
+624512,"Reese McGuire",30,1,0,3,7.88,21.8,21,0,6,"Thin-sample (Limited Innings)",21
+641658,"Garrett Hampson",30,1,0,4,19.99076923,21.7,21,0,3,"Thin-sample (Limited Innings)",21
+642016,"Daniel Robert",30,1,23.1,26,112.6730841,22.7,21,25.4,59,"Thin-sample (Limited Innings)",-4.4
+642133,"Rowdy Tellez",30,2,0,15,72.66909091,19.8,21,0,11,"Thin-sample (Limited Innings)",21
+642215,"Weston Wilson",30,1,0,4,55.3775,21.7,21,0,12,"Thin-sample (Limited Innings)",21
+643396,"Isiah Kiner-Falefa",30,2,0,9,0.427777778,19.4,21,0,2,"Thin-sample (Limited Innings)",21
+656716,"Zach McKinstry",30,2,0,8,19.08416667,20.2,21,0,1,"Thin-sample (Limited Innings)",21
+668670,"Jake Rogers",30,1,0,6,53.89411765,21.9,21,0,16,"Thin-sample (Limited Innings)",21
+670032,"Nicky Lopez",30,2,0,13,39.07380952,19.4,21,0,2,"Thin-sample (Limited Innings)",21
+670912,"Johan Oviedo",27,3,20.2,781,93.48966375,20.9,20.9,24.7,170,"History-based model",-3.8
+621028,"Kevin Newman",31,0,NA,NA,NA,NA,20.9,0,16,"No MLB history (debuts)",20.9
+621512,"Tomás Nido",31,0,NA,NA,NA,NA,20.9,0,6,"No MLB history (debuts)",20.9
+664068,"Scott Kingery",31,0,NA,NA,NA,NA,20.9,5.6,18,"No MLB history (debuts)",15.3
+680837,"Ryan Fitzgerald",31,0,NA,NA,NA,NA,20.9,0,8,"No MLB history (debuts)",20.9
+622569,"Pablo Reyes",31,3,0,5,36.09,19.7,20.9,0,8,"Thin-sample (Limited Innings)",20.9
+571927,"Steven Matz",34,3,17.4,190,97.09525946,20.8,20.8,19.1,309,"History-based model",1.7
+612434,"Miguel Castro",30,3,12.5,64,98.61145299,20.8,20.8,14.3,28,"History-based model",6.5
+655889,"Manuel Rodríguez",28,3,21.5,158,107.4175667,20.8,20.8,20.7,121,"History-based model",0.1
+660787,"Yerry De los Santos",27,2,17.3,104,93.93869018,20.8,20.8,17.5,160,"History-based model",3.3
+676775,"Keaton Winn",27,2,20.2,238,102.1853191,20.8,20.8,21.4,42,"History-based model",-0.6
+696147,"Sam Bachman",25,1,18.2,77,99.46803797,20.8,20.8,19.1,94,"History-based model",1.6
+502043,"Kyle Gibson",37,3,20.9,722,87.17605808,20.7,20.7,13.7,73,"History-based model",7
+608566,"Germán Márquez",30,3,15,20,89.74628571,20.7,20.7,14,591,"History-based model",6.7
+641302,"Tyler Alexander",30,3,19.8,455,101.3402747,20.7,20.7,19.4,423,"History-based model",1.3
+641672,"Thomas Hatch",30,3,20.2,129,106.802695,20.7,20.7,14.5,152,"History-based model",6.2
+642520,"Gerson Garabito",29,1,19.1,115,90.41975999,20.7,20.7,19.5,41,"History-based model",1.2
+663362,"Matt Waldron",28,2,21.3,625,90.4875816,20.7,20.7,12,25,"History-based model",8.7
+663941,"Tristan Beck",29,2,20.9,67,92.50512397,20.7,20.7,17.7,232,"History-based model",3
+664875,"Justin Lawrence",30,3,16.1,279,104.3361816,20.7,20.7,33.3,69,"History-based model",-12.7
+664948,"Anthony Misiewicz",30,3,16.7,6,109.768,20.7,20.7,21.7,23,"History-based model",-1
+668390,"Cole Winn",25,1,18.2,77,101.308042,20.7,20.7,21.6,162,"History-based model",-0.9
+596142,"Gary Sánchez",32,0,NA,NA,NA,NA,20.7,0,7,"No MLB history (debuts)",20.7
+606996,"Kyle Hart",32,0,NA,NA,NA,NA,20.7,20.7,179,"No MLB history (debuts)",0.1
+595978,"Austin Hedges",32,2,0,6,53.328,19.9,20.7,6.2,16,"Thin-sample (Limited Innings)",14.5
+596103,"Austin Slater",32,1,0,2,68.44666667,22.7,20.7,0,3,"Thin-sample (Limited Innings)",20.7
+624431,"Jose Trevino",32,1,0,13,60.02930233,20,20.7,8.3,12,"Thin-sample (Limited Innings)",12.4
+656186,"Dan Altavilla",32,2,23.8,21,99.16463527,23.3,20.7,17.5,120,"Thin-sample (Limited Innings)",3.2
+691094,"Randy Wynne",32,1,0,11,73.47941176,20.5,20.7,23.1,13,"Thin-sample (Limited Innings)",-2.3
+608717,"Chris Stratton",34,3,17.1,257,90.03689829,20.6,20.6,21.2,104,"History-based model",-0.5
+650893,"Génesis Cabrera",28,3,18.5,271,110.2692621,20.6,20.6,18.7,187,"History-based model",1.9
+656986,"Bennett Sousa",30,2,29.4,34,105.6905714,20.6,20.6,29.6,199,"History-based model",-9.1
+663436,"Davis Martin",28,2,21.4,220,93.86259971,20.6,20.6,17.3,601,"History-based model",3.3
+676083,"Janson Junk",29,3,16.7,48,96.16811429,20.6,20.6,17.2,447,"History-based model",3.4
+686654,"Ty Adcock",28,2,14.3,21,100.5427907,20.6,20.6,35.7,14,"History-based model",-15.1
+700249,"Cade Povich",25,1,19.6,352,97.26921526,20.6,20.6,24.2,488,"History-based model",-3.6
+571771,"Enrique Hernández",33,1,0,18,49.42088889,19.1,20.6,2.7,37,"Thin-sample (Limited Innings)",17.9
+607067,"Colin Rea",34,3,18.9,714,96.32279774,20.5,20.5,19.2,662,"History-based model",1.3
+621112,"Paul Blackburn",31,3,18.7,316,88.31516358,20.5,20.5,19.4,175,"History-based model",1.1
+663687,"Hogan Harris",28,2,20,305,96.97414318,20.5,20.5,23.5,277,"History-based model",-3
+671106,"Logan Allen",26,2,18.3,432,92.5381457,20.5,20.5,18,676,"History-based model",2.4
+671131,"Jackson Rutledge",26,2,26.5,34,99.80651593,20.5,20.5,19.7,330,"History-based model",0.8
+676661,"Max Lazar",26,1,16.7,54,81.51635514,20.5,20.5,15.3,170,"History-based model",5.2
+592791,"Jameson Taillon",33,3,18.5,675,92.78158384,20.4,20.4,18.9,519,"History-based model",1.5
+642759,"Julian Fernández",29,1,12.1,33,95.18376068,20.4,20.4,25,20,"History-based model",-4.6
+686747,"Joe La Sorsa",27,2,18.9,74,97.91938272,20.4,20.4,6.1,33,"History-based model",14.4
+687765,"Mitch Spence",27,1,19.4,651,103.321752,20.4,20.4,17.6,375,"History-based model",2.8
+608671,"Travis Jankowski",34,0,NA,NA,NA,NA,20.4,0,6,"No MLB history (debuts)",20.4
+571657,"Kyle Farmer",34,1,0,19,37.97414634,19,20.4,0,5,"Thin-sample (Limited Innings)",20.4
+573262,"Mike Yastrzemski",34,1,0,8,59.77448276,20.9,20.4,0,7,"Thin-sample (Limited Innings)",20.4
+623168,"Tyler Heineman",34,1,0,4,-22.94,21.7,20.4,0,27,"Thin-sample (Limited Innings)",20.4
+544150,"Albert Suárez",35,1,19.1,565,89.41157621,20.3,20.3,22.7,44,"History-based model",-2.5
+605182,"Mike Clevinger",34,3,19.2,78,94.99767313,20.3,20.3,9.7,31,"History-based model",10.6
+607200,"Erick Fedde",32,3,21.2,726,90.51984792,20.3,20.3,13.3,623,"History-based model",6.9
+657649,"Jared Koenig",31,2,23.8,265,106.5233546,20.3,20.3,25.4,268,"History-based model",-5.1
+661527,"Seth Martinez",30,3,16.2,222,100.7625598,20.3,20.3,14.8,27,"History-based model",5.5
+663623,"Jake Irvin",28,2,20.3,769,98.59909779,20.3,20.3,15.8,787,"History-based model",4.6
+665871,"Javier Assad",27,3,19.4,638,90.99074367,20.3,20.3,15,153,"History-based model",5.3
+672582,"Angel Zerpa",25,3,20.5,239,111.0715668,20.3,20.3,21.1,275,"History-based model",-0.8
+677960,"Ryan Weathers",25,3,21.8,367,100.2066525,20.3,20.3,22.3,166,"History-based model",-2
+686730,"Carson Spiers",27,2,19.5,410,96.25557906,20.3,20.3,18.3,60,"History-based model",2
+542932,"Jon Berti",35,0,NA,NA,NA,NA,20.3,0,19,"No MLB history (debuts)",20.3
+543592,"Austin Nola",35,0,NA,NA,NA,NA,20.3,0,11,"No MLB history (debuts)",20.3
+608372,"Tomoyuki Sugano",35,0,NA,NA,NA,NA,20.3,15.7,675,"No MLB history (debuts)",4.6
+534910,"Jesse Hahn",35,1,15.8,19,92.60674157,22,20.3,12,25,"Thin-sample (Limited Innings)",8.3
+543391,"Casey Kelly",35,1,19,21,82.65820513,22,20.3,0,6,"Thin-sample (Limited Innings)",20.3
+543101,"Anthony DeSclafani",35,3,18.9,419,91.967603,20.2,20.2,21.3,169,"History-based model",-1.1
+547184,"Michael Kelly",32,3,17.2,128,107.3559227,20.2,20.2,17.5,166,"History-based model",2.7
+594902,"Ben Lively",33,2,18.7,632,81.86667778,20.2,20.2,16.3,178,"History-based model",3.9
+656686,"Corbin Martin",29,2,20.8,101,91.69500022,20.2,20.2,25.8,89,"History-based model",-5.7
+663372,"Ryan Feltner",28,3,19.9,692,92.98207782,20.2,20.2,18.5,135,"History-based model",1.6
+664129,"Geoff Hartlieb",31,3,15.9,44,98.26116788,20.2,20.2,20.8,24,"History-based model",-0.7
+669432,"Trevor Rogers",27,3,17.3,562,88.82636836,20.2,20.2,24.3,423,"History-based model",-4.2
+669724,"Brenan Hanifee",27,2,19.2,120,98.64089485,20.2,20.2,15.4,260,"History-based model",4.8
+678692,"Ronny Henriquez",25,2,18.3,82,96.48231023,20.2,20.2,32.3,303,"History-based model",-12.1
+683769,"Hunter Gaddis",27,3,23.7,278,99.1190824,20.2,20.2,26.6,274,"History-based model",-6.5
+687922,"Easton Lucas",28,2,16.4,61,105.8535214,20.2,20.2,21.3,108,"History-based model",-1.1
+500743,"Miguel Rojas",36,2,0,4,38.5,19.9,20.2,0,28,"Thin-sample (Limited Innings)",20.2
+605218,"Carl Edwards Jr.",33,3,0,3,71.08,20.1,20.1,25,24,"History-based model",-4.9
+663738,"Daniel Lynch IV",28,3,22.4,174,91.50932195,20.1,20.1,15.6,289,"History-based model",4.6
+672335,"Cionel Pérez",29,3,19.3,238,102.5490909,20.1,20.1,19.1,110,"History-based model",1
+673929,"Jordan Leasure",26,1,18.3,142,98.40447227,20.1,20.1,30.1,269,"History-based model",-10
+676974,"Max Meyer",26,2,18.5,248,88.09427094,20.1,20.1,23.9,285,"History-based model",-3.8
+692230,"Carlos Rodriguez",23,1,15.8,57,95.64813853,20.1,20.1,22,50,"History-based model",-1.9
+693821,"Bryce Elder",26,3,20.4,226,87.25271462,20.1,20.1,19.3,679,"History-based model",0.8
+702674,"Caden Dana",21,1,15.4,52,88.44951456,20.1,20.1,23.4,141,"History-based model",-3.3
+547001,"Cody Poteet",30,3,16.7,96,89.79540331,20,20,6.2,16,"History-based model",13.8
+663399,"Brandon Waddell",31,1,13.7,51,100.1871362,20,20,16.4,134,"History-based model",3.6
+665665,"Reiver Sanmartin",29,3,18.6,70,100.0164516,20,20,25,8,"History-based model",-5
+672456,"Keider Montero",24,1,18.7,412,94.5693356,20,20,18.5,389,"History-based model",1.5
+681810,"Austin Warren",29,3,16.7,42,106.433526,20,20,26.5,34,"History-based model",-6.4
+641835,"Tim Mayza",33,3,14.4,195,100.2236063,19.9,19.9,20.3,74,"History-based model",-0.4
+657044,"Ryan Thompson",33,3,19.1,272,117.8631449,19.9,19.9,20.6,175,"History-based model",-0.7
+668820,"Max Kranick",27,2,21.1,19,99.54552632,19.9,19.9,16.9,148,"History-based model",3
+669461,"Matthew Liberatore",25,3,21.2,358,103.72298,19.9,19.9,18.8,648,"History-based model",1
+675650,"Michael Mercado",26,1,15.6,64,98.19769231,19.9,19.9,20,20,"History-based model",-0.1
+676664,"JP Sears",29,3,18.1,758,95.37842327,19.9,19.9,20.1,583,"History-based model",-0.1
+680689,"Lyon Richardson",25,2,20,5,104.98,19.9,19.9,17.4,172,"History-based model",2.4
+696131,"Mason Black",25,1,18.3,169,98.20632287,19.9,19.9,26.3,19,"History-based model",-6.4
+471911,"Carlos Carrasco",38,3,19.9,447,84.48563464,19.8,19.8,16,212,"History-based model",3.8
+500779,"Jose Quintana",36,3,18.8,717,88.04111983,19.8,19.8,16,556,"History-based model",3.7
+621199,"Matt Bowman",34,2,18.2,132,106.2689646,19.8,19.8,15.8,114,"History-based model",4
+663568,"Stephen Kolek",28,1,18.5,211,109.2197487,19.8,19.8,16.7,461,"History-based model",3.1
+678606,"Jose A. Ferrer",25,2,19.4,129,118.5612236,19.8,19.8,21.9,324,"History-based model",-2.1
+682610,"Roddery Muñoz",25,1,18.5,379,96.21045443,19.8,19.8,27.5,51,"History-based model",-7.6
+663893,"Brendon Little",28,2,18.7,193,116.7774026,19.7,19.7,30.8,295,"History-based model",-11.1
+664192,"Joey Lucchesi",32,3,15.2,46,95.66719101,19.7,19.7,18.8,165,"History-based model",0.9
+668984,"Casey Legumina",28,2,14.9,47,97.20107784,19.7,19.7,25.1,219,"History-based model",-5.4
+672710,"Roansy Contreras",25,3,18.8,298,94.24006647,19.7,19.7,11.8,51,"History-based model",7.9
+677944,"Slade Cecconi",26,2,18.9,338,95.10401366,19.7,19.7,20,545,"History-based model",-0.3
+677955,"Jaden Hill",25,1,13.3,45,93.49072848,19.7,19.7,24,129,"History-based model",-4.3
+682052,"Jacob Lopez",27,2,17.4,46,88.28067416,19.7,19.7,28.3,399,"History-based model",-8.6
+702352,"Spencer Bivens",31,1,18.3,202,103.7873974,19.7,19.7,17.8,343,"History-based model",2
+542881,"Tyler Anderson",35,3,18.6,765,98.25496215,19.6,19.6,17.4,599,"History-based model",2.2
+656457,"Tyler Gilbert",31,3,10.5,38,91.93282759,19.6,19.6,22.8,215,"History-based model",-3.2
+663773,"Bryan Hoeing",28,3,20.5,210,98.41153692,19.6,19.6,13.9,36,"History-based model",5.7
+671111,"Sammy Peralta",27,2,15.3,72,100.9922695,19.6,19.6,15.4,52,"History-based model",4.3
+683004,"Jack Leiter",25,1,17.9,173,105.2499194,19.6,19.6,22.9,646,"History-based model",-3.3
+685314,"Andrew Saalfrank",27,2,0,8,75.21692308,19.6,19.6,16.8,113,"History-based model",2.8
+696136,"Jordan Wicks",25,2,19.8,212,102.2704667,19.6,19.6,19.4,67,"History-based model",0.2
+573186,"Marcus Stroman",34,3,16.7,675,85.46251207,19.5,19.5,14.9,175,"History-based model",4.7
+608718,"Brent Suter",35,3,18.5,270,105.6477559,19.5,19.5,18.2,291,"History-based model",1.3
+663969,"Tyler Phillips",27,1,17.5,160,93.13627526,19.5,19.5,16.6,313,"History-based model",2.8
+669145,"Bruce Zimmermann",30,3,23,61,88.408,19.5,19.5,3.6,28,"History-based model",15.9
+670174,"Josh Winckowski",27,3,17.9,336,104.715852,19.5,19.5,17.3,52,"History-based model",2.2
+691951,"Sam Aldegheri",23,1,14.9,67,86.94432432,19.5,19.5,16.4,73,"History-based model",3.1
+642239,"Rob Zastryzny",33,3,17.2,29,100.621414,19.4,19.4,21.5,93,"History-based model",-2.1
+669194,"Ryne Nelson",27,3,20,630,102.1793024,19.4,19.4,21.3,619,"History-based model",-1.9
+547179,"Michael Lorenzen",33,3,18.1,536,91.2848074,19.3,19.3,21,606,"History-based model",-1.7
+605507,"Zach Thompson",31,2,16.6,543,94.122519,19.3,19.3,25,12,"History-based model",-5.7
+656234,"Jake Bird",29,3,16.8,185,106.781085,19.3,19.3,26.6,248,"History-based model",-7.3
+656848,"Michael Petersen",31,1,15.6,90,109.00573,19.3,19.3,21.5,79,"History-based model",-2.3
+668834,"Easton McGee",27,2,9.1,22,91.9025,19.3,19.3,21,62,"History-based model",-1.6
+669391,"Owen White",25,2,0,18,94.79391304,19.3,19.3,17.1,35,"History-based model",2.2
+674285,"Eduardo Salazar",27,2,20.3,133,98.9209579,19.3,19.3,15.3,150,"History-based model",4
+677865,"Justin Bruihl",28,3,18.5,27,103.9126531,19.3,19.3,27.7,65,"History-based model",-8.4
+593974,"Wandy Peralta",33,3,13.6,162,94.71110016,19.2,19.2,20.1,313,"History-based model",-1
+606930,"Jacob Barnes",35,3,19.9,277,100.419839,19.2,19.2,13.9,36,"History-based model",5.3
+664353,"José Urquidy",30,3,16.4,275,98.00451031,19.2,19.2,21.4,14,"History-based model",-2.3
+669060,"Bryse Wilson",27,3,18.6,442,101.7063152,19.2,19.2,12.5,224,"History-based model",6.7
+641585,"J.P. France",30,2,18.2,121,90.36613734,19.1,19.1,31.2,16,"History-based model",-12.1
+678906,"Kai-Wei Teng",26,1,12.7,55,95.1254902,19.1,19.1,28.1,139,"History-based model",-9
+680736,"Justin Wrobleski",24,1,16.9,154,100.3270888,19.1,19.1,27.1,280,"History-based model",-8
+686563,"Jonathan Cannon",24,1,17.4,522,95.59475585,19.1,19.1,18.5,466,"History-based model",0.7
+622253,"Dillon Tate",31,3,16.5,164,106.7779738,19,19,23.5,34,"History-based model",-4.5
+700270,"Yilber Díaz",24,1,16,119,89.13947798,19,19,6.7,15,"History-based model",12.3
+666168,"Mason Thompson",27,3,18.3,240,100.5633819,18.9,18.9,18.3,60,"History-based model",0.6
+681517,"Kyle Leahy",28,2,17.3,191,93.41965468,18.9,18.9,22,363,"History-based model",-3.1
+681867,"Cooper Criswell",28,3,17.2,424,103.0367484,18.9,18.9,11.2,80,"History-based model",7.6
+682847,"Luis Ortiz",26,3,19.2,556,98.06047303,18.9,18.9,25.1,382,"History-based model",-6.2
+690544,"Bailey Horn",27,1,14.8,88,105.6946358,18.9,18.9,20,50,"History-based model",-1.1
+643511,"Tyler Rogers",34,3,17.6,290,119.0285829,18.8,18.8,16.1,299,"History-based model",2.7
+663562,"Noah Davis",28,3,15.6,96,89.59252747,18.8,18.8,23.1,65,"History-based model",-4.3
+687888,"Brandon Walter",28,1,15.1,106,96.352,18.8,18.8,24.5,212,"History-based model",-5.7
+694462,"Hurston Waldrep",23,1,8.3,36,101.0025564,18.8,18.8,24,229,"History-based model",-5.2
+646242,"Jhonathan Díaz",28,3,17,47,95.98024096,18.7,18.7,20,5,"History-based model",-1.3
+670810,"Logan Gillaspie",28,3,14.3,49,92.18384106,18.7,18.7,12.9,31,"History-based model",5.8
+685299,"Tanner Gordon",27,1,16.2,160,88.09496711,18.7,18.7,18.4,337,"History-based model",0.3
+527048,"Martín Pérez",34,3,18.1,590,83.95438726,18.6,18.6,19.3,228,"History-based model",-0.7
+571466,"Tucker Barnhart",34,3,0,7,39.36727273,18.6,18.6,0,11,"History-based model",18.6
+643361,"Kevin Herget",34,3,20.9,43,95.2654902,18.6,18.6,10.7,56,"History-based model",7.9
+665019,"Kody Clemens",29,3,0,6,31.94,18.6,18.6,0,6,"History-based model",18.6
+670329,"Rico Garcia",31,2,16.7,60,91.2705618,18.6,18.6,26.8,142,"History-based model",-8.2
+518397,"Scott Alexander",35,3,19.4,160,100.9700533,18.5,18.5,9.9,81,"History-based model",8.7
+657756,"Connor Seabold",29,3,16.4,408,85.24140573,18.5,18.5,20.8,48,"History-based model",-2.4
+663559,"Bailey Falter",28,3,16.5,589,96.22557439,18.5,18.5,15.6,518,"History-based model",2.9
+683155,"Joey Estes",23,2,16.9,543,96.54731008,18.5,18.5,10.9,55,"History-based model",7.5
+687424,"Anthony Maldonado",27,1,13.4,82,91.61084995,18.5,18.5,21.2,33,"History-based model",-2.8
+571578,"Patrick Corbin",35,3,18.2,764,93.45638504,18.4,18.4,19.8,663,"History-based model",-1.4
+647315,"Zach Pop",28,3,15.8,209,110.7625371,18.4,18.4,7.7,39,"History-based model",10.7
+669438,"Mason Englert",25,2,17.2,93,92.77399517,18.4,18.4,23.8,185,"History-based model",-5.3
+674944,"Sean Guenther",29,2,16.4,73,93.66065844,18.4,18.4,18.6,43,"History-based model",-0.2
+676969,"Brett de Geus",27,2,13.5,52,99.14903497,18.4,18.4,0,10,"History-based model",18.4
+592836,"Taijuan Walker",32,3,15.2,381,85.69126316,18.3,18.3,16,538,"History-based model",2.4
+663554,"Casey Mize",28,3,17.3,452,99.03330993,18.3,18.3,22.2,627,"History-based model",-3.9
+541640,"Erasmo Ramírez",35,3,17.6,85,93.91854305,18.2,18.2,11.9,42,"History-based model",6.3
+596271,"Casey Lawrence",37,2,16.4,122,89.17024857,18.2,18.2,8.8,80,"History-based model",9.5
+571945,"Miles Mikolas",36,3,16.9,720,94.10920059,18.1,18.1,14.9,669,"History-based model",3.1
+642232,"Ryan Yarbrough",33,3,16.3,398,108.7282592,18.1,18.1,20.8,264,"History-based model",-2.8
+674072,"Tommy Henry",27,3,16.5,182,84.15241997,18,18,30.8,26,"History-based model",-12.8
+688107,"Robert Gasser",26,1,14,114,105.3781407,18,18,17.2,29,"History-based model",0.8
+623167,"Chris Flexen",30,3,17.4,707,81.4573524,17.9,17.9,12.4,178,"History-based model",5.5
+642528,"Jonathan Loáisiga",30,3,15,20,133.4455738,17.9,17.9,18.5,135,"History-based model",-0.6
+681190,"Randy Vásquez",26,2,14.4,431,101.479099,17.9,17.9,13.7,570,"History-based model",4.2
+683627,"Anthony Molina",23,1,15.5,264,90.6917062,17.9,17.9,15,160,"History-based model",2.9
+668933,"Graham Ashcraft",27,3,16.3,350,101.710467,17.8,17.8,22.5,284,"History-based model",-4.7
+669467,"Andre Pallante",26,3,18.5,509,96.59792191,17.8,17.8,15.5,715,"History-based model",2.3
+669947,"Jesse Scholtens",31,1,15.4,377,79.87210819,17.8,17.8,31.6,38,"History-based model",-13.7
+670766,"Darren McCaughan",29,3,14.4,195,87.64803922,17.8,17.8,26.1,23,"History-based model",-8.3
+605288,"Adrian Houser",32,3,14.6,309,90.4065602,17.7,17.7,17.8,518,"History-based model",-0.1
+519008,"T.J. McFarland",36,3,16.6,235,92.27133574,17.6,17.6,9.5,74,"History-based model",8.1
+489119,"Wade Miley",38,3,6.7,30,96.76564103,17.5,17.5,12.7,55,"History-based model",4.8
+675540,"Xzavion Curry",26,3,16.3,172,89.02057791,17.5,17.5,6.2,16,"History-based model",11.3
+678368,"Valente Bellozo",25,1,14.9,295,86.10417582,17.5,17.5,15.5,348,"History-based model",2
+543294,"Kyle Hendricks",35,3,15.3,567,85.38573349,17.4,17.4,16.4,695,"History-based model",1
+596295,"Austin Gomber",31,3,16.7,696,91.12042797,17.4,17.4,12.5,272,"History-based model",4.9
+607536,"Kyle Freeland",32,3,17.3,490,89.8273029,17.4,17.4,17.5,709,"History-based model",-0.1
+607732,"Jacob Stallings",35,1,2.8,36,43.80217391,17.4,17.4,12.5,8,"History-based model",4.9
+641745,"Brad Keller",29,3,16.7,192,92.88648612,17.3,17.3,27.2,276,"History-based model",-9.9
+694363,"Jared Shuster",26,2,17.4,321,85.00939535,17.3,17.3,14.6,82,"History-based model",2.6
+800049,"Adam Mazur",24,1,13.9,158,92.10899145,17.3,17.3,13.7,139,"History-based model",3.6
+669422,"Matt Sauer",26,1,10.7,84,104.6318317,17.2,17.2,18.6,129,"History-based model",-1.4
+687134,"Bradley Blalock",24,1,13.6,147,90.28087421,17.2,17.2,9.8,275,"History-based model",7.4
+690916,"Richard Fitts",25,1,10.6,85,98.21006452,17.1,17.1,20.5,195,"History-based model",-3.4
+622608,"Antonio Senzatela",30,3,13,54,85.94073394,17,17,11.8,618,"History-based model",5.2
+669920,"Jason Alexander",32,1,14.3,321,96.71257871,17,17,19.3,336,"History-based model",-2.3
+615698,"Cal Quantrill",30,3,16.8,656,85.65885636,16.9,16.9,16.6,513,"History-based model",0.4
+641312,"Shaun Anderson",30,3,11.8,85,82.43737705,16.8,16.8,19.6,56,"History-based model",-2.8
+676106,"Emerson Hancock",26,2,14.7,266,90.86609779,16.8,16.8,16.6,385,"History-based model",0.2
+682990,"Quinn Priester",24,2,14.9,221,91.48443884,16.8,16.8,20.2,653,"History-based model",-3.4
+571912,"Luke Maile",34,3,0,18,30.10215385,16.6,16.6,0,4,"History-based model",16.6
+686826,"Bryce Jarvis",27,2,14.7,258,94.78424303,16.6,16.6,21.4,98,"History-based model",-4.8
+570632,"José Ureña",33,3,15.1,463,93.24831347,16.3,16.3,13.9,245,"History-based model",2.4
+677976,"Randy Dobnak",30,2,15.6,45,79.35846154,16.3,16.3,5.3,19,"History-based model",11
+663765,"Jake Woodford",28,3,15.6,167,91.41749357,16,16,13.5,170,"History-based model",2.5
+667463,"John King",30,3,15.3,248,102.237757,16,16,12.6,222,"History-based model",3.4
+689266,"Dylan Dodd",27,2,22.2,9,97.55705882,15.8,15.8,22.1,136,"History-based model",-6.2
+657612,"Tim Hill",35,3,10.7,291,116.3754186,13.9,13.9,13.8,269,"History-based model",0.1
+686799,"Jack Kochanowicz",24,1,9.4,266,101.1374581,13.8,13.8,14.1,512,"History-based model",-0.3

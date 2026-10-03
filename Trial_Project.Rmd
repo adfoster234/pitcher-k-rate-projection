@@ -1,0 +1,344 @@
+---
+title: "Phillies Trial Project RMD"
+author: "Adam Foster"
+date: "2026-08-20"
+output: pdf_document
+header-includes:
+  - \usepackage{fvextra}
+  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+  - \DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Methodology Overview:**
+I used **Tom Tango's "Marcel the Monkey" method** in order to predict K% for the 2025 season. This is one of the most well-established forecasting approaches in sabermetrics. It backs predictions with 3 main ideas: 1. Recent seasons project better than previous ones. 2. Trust larger sample sizes more than smaller ones. 3. Younger players are considered less reliable and should be pulled back towards league average. Marcel combines all three ideas through his weighting system. This keeps the baseline transparent and resistant to overfitting, which creates a solid foundation for the model. Every prediction is built using only data from seasons 2021-2024.
+
+https://www.mlb.com/glossary/projection-systems/marcel-the-monkey-forecasting-system
+
+```{r, message=FALSE, warning=FALSE}
+#Step 1: Load Packages and Data
+#install.packages(c("readr", "dplyr", "tidyr", "ggplot2", "gridExtra"))
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gridExtra)
+
+df <- read_csv("k_2026.csv", show_col_types = FALSE)
+df <- as.data.frame(df)
+df <- df[order(df$PlayerId, df$Season), ]
+stopifnot(sum(duplicated(df[, c("PlayerId", "Season")])) == 0)
+
+cat(sprintf("%d player-seasons, %d unique pitchers, seasons %d-%d\n",
+            nrow(df), length(unique(df$PlayerId)), min(df$Season), max(df$Season)))
+
+
+league_k <- df %>% group_by(Season) %>% summarise ('League K%' = weighted.mean(`K%`, TBF ), .groups = "drop")
+LEAGUE_K <- setNames(league_k$'League K%' , league_k$Season)
+print(league_k)
+
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 2: Build table where each row has a player's stats from the prior 3 seasons all together
+
+build_features <- function(df) {
+  out <- list(); idx <- 1
+  for (pid in unique(df$PlayerId)) {
+    sub <- df[df$PlayerId == pid, ]
+    sub <- sub[order(sub$Season), ]
+    for (i in seq_len(nrow(sub))) {
+      season <- sub$Season[i]
+      prior <- tail(sub[sub$Season < season, ], 3) 
+      if (nrow(prior) == 0) next
+      rec <- list(
+        PlayerId = pid, Name = sub$Name[i], Season = season,
+        Age = sub$Age[i], n_prior_seasons = nrow(prior),
+        prior_TBF_total = sum(prior$TBF),
+        target_K = sub[["K%"]][i], target_TBF = sub$TBF[i]
+      )
+      prior_rev <- prior[rev(seq_len(nrow(prior))), ]
+      for (j in 1:3) {
+        if (j <= nrow(prior_rev)) {
+          rec[[paste0("prior_season", j, "_K")]] <- prior_rev[["K%"]][j]
+          rec[[paste0("prior_season", j, "_TBF")]] <- prior_rev$TBF[j]
+          rec[[paste0("prior_season", j, "_Stuff")]] <- prior_rev[["Stuff+"]][j]
+          rec[[paste0("prior_season", j, "_season")]] <- prior_rev$Season[j]
+        } else {
+         rec[[paste0("prior_season", j, "_K")]] <- rec[[paste0("prior_season", j, "_TBF")]] <-
+            rec[[paste0("prior_season", j, "_Stuff")]] <- rec[[paste0("prior_season", j, "_season")]] <- NA_real_
+        }
+      }
+      out[[idx]] <- rec; idx <- idx + 1
+    }
+  }
+  bind_rows(out)
+}
+
+feat <- build_features(df)
+cat(sprintf("%d player-seasons have >=1 prior season on record\n", nrow(feat)))
+
+df$key <- paste(df$PlayerId, df$Season, sep = "_")
+feat$key <- paste(feat$PlayerId, feat$Season, sep = "_")
+no_prior <- df %>% filter(!key %in% feat$key, Season != 2021)
+
+head(feat[, c("Name", "Season", "prior_season1_K", "prior_season1_TBF", "target_K")])
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 3: Function Definitions
+weighted_rmse <- function(y, yhat, w) sqrt(weighted.mean((y - yhat)^2, w))
+fit_weighted_ridge <- function(X, y, w, lambda = 1.0) {
+  Xs <- scale(X)
+  center <- attr(Xs, "scaled:center"); scale_ <- attr(Xs, "scaled:scale")
+  Xd <- cbind(1, Xs)
+  W <- diag(w)
+  I <- diag(ncol(Xd)); I[1, 1] <- 0
+  beta <- solve(t(Xd) %*% W %*% Xd + lambda * I, t(Xd) %*% W %*% y)
+  list(beta = beta, center = center, scale = scale_)
+}
+predict_weighted_ridge <- function(model, Xnew) {
+  Xs <- sweep(sweep(Xnew, 2, model$center, "-"), 2, model$scale, "/")
+  as.numeric(cbind(1, Xs) %*% model$beta)
+}
+
+marcel_baseline_vec <- function(feat, weights, tbf_cap, shrink_tbf) {
+  w1 <- weights[1] * pmin(feat$prior_season1_TBF, tbf_cap); w1[is.na(feat$prior_season1_K)] <- 0
+  w2 <- weights[2] * pmin(feat$prior_season2_TBF, tbf_cap); w2[is.na(feat$prior_season2_K)] <- 0
+  w3 <- weights[3] * pmin(feat$prior_season3_TBF, tbf_cap); w3[is.na(feat$prior_season3_K)] <- 0
+  k1 <- ifelse(is.na(feat$prior_season1_K), 0, feat$prior_season1_K)
+  k2 <- ifelse(is.na(feat$prior_season2_K), 0, feat$prior_season2_K)
+  k3 <- ifelse(is.na(feat$prior_season3_K), 0, feat$prior_season3_K)
+  num <- k1 * w1 + k2 * w2 + k3 * w3
+  den <- w1 + w2 + w3
+  lg <- LEAGUE_K[as.character(feat$prior_season1_season)]
+  lg[is.na(lg)] <- mean(LEAGUE_K)
+  unname((num + lg * shrink_tbf) / (den + shrink_tbf))
+}
+
+rmse_unweighted <- function(y, yhat) sqrt(mean((y - yhat)^2))
+mae_unweighted  <- function(y, yhat) mean(abs(y - yhat))
+r2_unweighted   <- function(y, yhat) {
+  ybar <- mean(y)
+  1 - sum((y - yhat)^2) / sum((y - ybar)^2)
+}
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 4: Training to find the best ways to weigh each of the 3 Marcel ideas
+
+train_grid <- feat %>% filter(Season %in% c(2022, 2023, 2024))
+
+weight_options <- list(c(5, 4, 3), c(3, 2, 1), c(1, 1, 1), c(4, 2, 1))
+cap_options     <- c(100, 150, 200, 300, 99999)
+shrink_options  <- c(30, 50, 80, 100, 120, 150, 200, 250, 300)
+
+grid <- expand.grid(weight_idx = seq_along(weight_options),
+                     tbf_cap = cap_options, shrink_tbf = shrink_options)
+grid$rmse <- vapply(seq_len(nrow(grid)), function(g) {
+  w <- weight_options[[grid$weight_idx[g]]]
+  preds <- marcel_baseline_vec(train_grid, w, grid$tbf_cap[g], grid$shrink_tbf[g])
+  weighted_rmse(train_grid$target_K, preds, train_grid$target_TBF)
+}, numeric(1))
+
+best <- grid[which.min(grid$rmse), ]
+RECENCY_WEIGHTS <- weight_options[[best$weight_idx]]
+TBF_CAP <- best$tbf_cap
+SHRINKAGE_TBF <- best$shrink_tbf
+
+cat(sprintf("\nBest Marcel hyperparameters (%d combinations tried, training-set weighted RMSE = %.4f):\n",
+            nrow(grid), best$rmse))
+cat(sprintf("  recency weights = (%s), TBF cap = %d, shrinkage TBF = %d\n\n",
+            paste(RECENCY_WEIGHTS, collapse = ", "), TBF_CAP, SHRINKAGE_TBF))
+
+feat$marcel_K <- marcel_baseline_vec(feat, RECENCY_WEIGHTS, TBF_CAP, SHRINKAGE_TBF)
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 5: Filter out guys with low TBF (also removes MOST position players)
+
+# Threshold kept at 30 despite two known edge cases (Kody Clemens, Tucker
+# Barnhart. These position players whose scattered appearances sum to
+# just over 30). Raising the threshold to 55 (needed to catch both) was
+# tested: it reclassifies 34 total players, but only ~4 are position
+# players -- the other ~30 are legitimate young pitchers (e.g. Hurston
+# Waldrep, Owen White) who simply haven't accumulated much MLB time yet.
+# That tradeoff was rejected as worse than the original edge case.
+MIN_PRIOR_TBF <- 30
+feat_established <- feat %>% filter(prior_TBF_total >= MIN_PRIOR_TBF)
+feat_thin        <- feat %>% filter(prior_TBF_total <  MIN_PRIOR_TBF)
+cat(sprintf("Workload filter (prior_TBF_total >= %d): %d established, %d thin-sample\n",
+            MIN_PRIOR_TBF, nrow(feat_established), nrow(feat_thin)))
+```
+
+```{r}
+#Step 6: create test variable
+test <- feat_established %>% filter(Season == 2025)
+test$Predicted_K <- test$marcel_K
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 7: This creates a prediction for the players with low TBF which would go against the Marcel model, but wanted to still include a prediction for them
+
+thin_std <- feat_thin %>%
+  transmute(PlayerId, Name, Season, Age, `K%` = target_K, TBF = target_TBF,
+            N_prior_seasons_used = n_prior_seasons,
+            `2024_K%` = prior_season1_K, `2024_TBF` = prior_season1_TBF, `2024_Stuff+` = prior_season1_Stuff,
+            Marcel_baseline_K = marcel_K,
+            Data_basis = "Thin-sample (Limited Innings)")
+no_prior_std <- no_prior %>%
+  transmute(PlayerId, Name, Season, Age, `K%`, TBF,
+            N_prior_seasons_used = 0,
+            `2024_K%` = NA_real_, `2024_TBF` = NA_real_, `2024_Stuff+` = NA_real_,
+            Marcel_baseline_K = NA_real_,
+            Data_basis = "No MLB history (debuts)")
+fallback_pop <- bind_rows(no_prior_std, thin_std)
+
+np_train <- fallback_pop %>% filter(Season %in% c(2022, 2023, 2024))
+np_test  <- fallback_pop %>% filter(Season == 2025)
+
+rookie_fit <- fit_weighted_ridge(as.matrix(np_train[, "Age", drop = FALSE]),
+                                  np_train[["K%"]], np_train$TBF, lambda = 1.0)
+np_test$Predicted_K <- pmin(pmax(
+  predict_weighted_ridge(rookie_fit, as.matrix(np_test[, "Age", drop = FALSE])), 0), 0.6)
+
+cat(sprintf("\n%d pitchers in the 2025 'others' group (%d rookies + %d low innings returners)\n",
+            nrow(np_test),
+            nrow(no_prior_std %>% filter(Season == 2025)),
+            nrow(thin_std %>% filter(Season == 2025))))
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Step 8: Validation, checking to see how accurate my prediction is to true K% in 2025
+
+all_actual <- c(test$target_K, np_test[["K%"]])
+all_pred   <- c(test$Predicted_K, np_test$Predicted_K)
+
+cat("\n VALIDATION (2025 not used in training) \n")
+cat(sprintf("Model RMSE (all 873 pitchers): %.4f  (%.1f percentage points of K%%)\n",
+            rmse_unweighted(all_actual, all_pred), 100 * rmse_unweighted(all_actual, all_pred)))
+cat(sprintf("Model MAE  (all 873 pitchers): %.4f\n", mae_unweighted(all_actual, all_pred)))
+cat(sprintf("Model R^2  (all 873 pitchers): %.4f\n", r2_unweighted(all_actual, all_pred)))
+
+cat(sprintf("\nEstablished players only (n=%d):\n", nrow(test)))
+cat(sprintf("  Model RMSE:                     %.4f\n", rmse_unweighted(test$target_K, test$Predicted_K)))
+cat(sprintf("  Naive 'same as last year' RMSE: %.4f\n", rmse_unweighted(test$target_K, test$prior_season1_K)))
+
+cat(sprintf("\nAll 873 pitchers:\n"))
+cat(sprintf("  Model RMSE:                 %.4f\n", rmse_unweighted(all_actual, all_pred)))
+cat(sprintf("  Naive 'league average' RMSE: %.4f\n", rmse_unweighted(all_actual, LEAGUE_K["2025"])))
+```
+
+```{r, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+#Step 9: Validation visuals/plots
+
+all_pred_pct <- all_pred * 100
+all_actual_pct <- all_actual * 100
+
+calib_df <- data.frame(pred = all_pred_pct, actual = all_actual_pct)
+calib_df$bucket <- cut(calib_df$pred,
+                        breaks = c(-Inf, 18, 22, 26, 30, Inf),
+                        labels = c("Under 18%", "18-22%", "22-26%", "26-30%", "Over 30%"))
+
+calib_summary <- calib_df %>%
+  group_by(bucket) %>%
+  summarise(avg_predicted = mean(pred), avg_actual = mean(actual), .groups = "drop") %>%
+  tidyr::pivot_longer(c(avg_predicted, avg_actual), names_to = "type", values_to = "value") %>%
+ mutate(type = ifelse(type == "avg_predicted", "Predicted K%", "Real K%"))
+
+p1 <- ggplot(calib_summary, aes(bucket, value, fill = type)) +
+  geom_col(position = position_dodge(width = 0.7), width = 0.6) +
+  geom_text(aes(label = sprintf("%.1f%%", value)),
+            position = position_dodge(width = 0.7), vjust = -0.4, size = 4, fontface = "bold") +
+  scale_fill_manual(values = c("Predicted K%" = "#A9C4DE", "Real K%" = "#2E5F8A")) +
+ labs(title = "Average Predicted vs. Actual K%",
+     subtitle = "Grouped by predicted strikeout rate",
+     x = "Predicted K% Group", y = "Average K%", fill = NULL) +
+  ylim(0, max(calib_summary$value) * 1.2) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top", plot.title = element_text(face = "bold"),
+        panel.grid.minor = element_blank(), panel.grid.major.x = element_blank())
+
+## Panel 2: accuracy scorecard (unchanged from before)
+err <- abs(all_actual - all_pred) * 100
+scorecard <- data.frame(
+  band = factor(c("Within 5 pts", "5-10 pts off", "10-15 pts off", "15+ pts off"),
+                levels = c("15+ pts off","10-15 pts off","5-10 pts off","Within 5 pts")),
+  pct = c(mean(err <= 5), mean(err > 5 & err <= 10),
+          mean(err > 10 & err <= 15), mean(err > 15)) * 100
+)
+
+p2 <- ggplot(scorecard, aes(band, pct, fill = band)) +
+  geom_col(width = 0.65) +
+  geom_text(aes(label = sprintf("%.0f%%", pct)), hjust = -0.15, size = 5, fontface = "bold") +
+  coord_flip(ylim = c(0, max(scorecard$pct)*1.2)) +
+  scale_fill_manual(values = c("Within 5 pts"="#2E8B57","5-10 pts off"="#8FBC8F",
+                                "10-15 pts off"="#DAA520","15+ pts off"="#B22222"), guide = "none") +
+  labs(title = "How Close Were the Predictions?",
+       subtitle = sprintf("%d pitchers total, 2025 season", nrow(calib_df)),
+       x = NULL, y = "% of Pitchers") +
+  theme_minimal(base_size = 13) +
+  theme(axis.text.x = element_blank(), panel.grid = element_blank(),
+        plot.title = element_text(face = "bold"))
+
+grid.arrange(p1, p2, ncol = 2, widths = c(1.1, 1))
+```
+
+**Interpreting these results:** 84% of my 2025 predictions landed within 10 percentage
+points of the pitcher's actual strikeout rate, and 62% were just 5
+points off. The model's biggest miss is in the "18-22%" predicted bucket,
+where the average actual outcome (16.9%) came in noticeably below what was
+predicted (20.8%). When reviewing while this may have had such a gap, I noticed 
+that this bucket is dominated by the Limited Track Record (low innings) group.
+A portion of that group recorded zero strikeouts in a handful of batters faced 
+(often position players making a rare mound appearance), which pulls the actual 
+average down further than the model could anticipate without more information 
+on these pitchers.
+
+```{r, message=FALSE, warning=FALSE}
+#Step 10: Final table and export to csv
+
+test_out <- test %>%
+  transmute(PlayerId, Name, Age, N_prior_seasons_used = n_prior_seasons,
+            `2024_K%` = prior_season1_K, `2024_TBF` = prior_season1_TBF, `2024_Stuff+` = prior_season1_Stuff,
+            Marcel_baseline_K = marcel_K, Predicted_K,
+            Actual_2025_K = target_K, Actual_2025_TBF = target_TBF,
+            Data_basis = "History-based model")
+
+np_out <- np_test %>%
+  transmute(PlayerId, Name, Age, N_prior_seasons_used,
+            `2024_K%`, `2024_TBF`, `2024_Stuff+`,
+            Marcel_baseline_K, Predicted_K,
+            Actual_2025_K = `K%`, Actual_2025_TBF = TBF,
+            Data_basis)
+
+full <- bind_rows(test_out, np_out) %>%
+  mutate(Error_pts = round((Predicted_K - Actual_2025_K) * 100, 1)) %>%
+  mutate(across(c(`2024_K%`, Marcel_baseline_K, Predicted_K, Actual_2025_K), ~ round(. * 100, 1))) %>%
+  rename(`Predicted_2025_K%` = Predicted_K, `Marcel_baseline_K%` = Marcel_baseline_K,
+         `Actual_2025_K%` = Actual_2025_K) %>%
+  arrange(desc(`Predicted_2025_K%`))
+
+write.csv(full, "k_percent_2025_predictions.csv", row.names = FALSE)
+cat(sprintf("\nSaved %d predictions to k_percent_2025_predictions.csv\n", nrow(full)))
+
+full %>%
+  select(Name, Age, `2024_K%`, `Predicted_2025_K%`, `Actual_2025_K%`, Data_basis) %>%
+  head(15)
+```
+
+**Limitations**
+A small number of position players who made scattered pitching appearances 
+across several seasons clear the `prior_TBF_total >= 30` threshold.
+For example, Kody Clemens and Tucker Barnhart both slipped into the 
+"established" pitcher group despite being position players. Raising the 
+threshold to catch both (which requires moving it to 55) was tested directly, 
+but it would reclassify 34 total players, but only about 4 of them are position 
+players. Young MLB pitchers (Hurston Waldrep etc.) who simply haven't 
+accumulated much MLB time yet would lose the benefit of the full model as a 
+result. That tradeoff was rejected as worse than leaving the original edge case 
+unresolved.
